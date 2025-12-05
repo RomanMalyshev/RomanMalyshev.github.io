@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Malyshev - Senior Game Engineer</title>
+    <meta name="description" content="Senior Game Engineer | Unity & Unreal Engine Developer">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- Status Bar Spacer -->
+    <div class="status-bar-spacer"></div>
+    
+    <!-- Navigation Header -->
+    <header class="nav-header">
+        <div class="nav-container">
+            <!-- Mobile Menu Button -->
+            <button class="menu-toggle" id="menu-toggle" title="Menu">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+            <h1 class="nav-title" id="nav-title">Roman Malyshev - Portfolio</h1>
+            <div class="nav-actions">
+                <button class="icon-button" id="theme-toggle" title="Toggle theme">
+                    <span class="icon">🌙</span>
+                </button>
+                <button class="icon-button" id="language-toggle" title="Toggle language">
+                    <i class="fas fa-globe"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+        <div class="mobile-nav-content">
+            <div class="mobile-nav-header">
+                <span class="mobile-nav-title" id="mobile-nav-title">Navigation</span>
+                <button class="mobile-nav-close" id="mobile-nav-close">&times;</button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="#about" class="mobile-nav-link" data-section="about"><span class="nav-icon">👤</span><span id="nav-about">About</span></a></li>
+                <li><a href="#projects" class="mobile-nav-link" data-section="projects"><span class="nav-icon">🎮</span><span id="nav-projects">Projects</span></a></li>
+                <li><a href="#experience" class="mobile-nav-link" data-section="experience"><span class="nav-icon">💼</span><span id="nav-experience">Experience</span></a></li>
+                <li><a href="#skills" class="mobile-nav-link" data-section="skills"><span class="nav-icon">⚡</span><span id="nav-skills">Skills</span></a></li>
+                <li><a href="#education" class="mobile-nav-link" data-section="education"><span class="nav-icon">🎓</span><span id="nav-education">Education</span></a></li>
+                <li><a href="#contact" class="mobile-nav-link" data-section="contact"><span class="nav-icon">✉️</span><span id="nav-contact">Contact</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Sidebar (Desktop) -->
+        <aside class="sidebar">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-card">
+                    <div class="avatar-container">
+                        <img src="images/avatar.jpg" alt="Roman Malyshev" class="avatar-large">
+                    </div>
+                    <div class="hero-content">
+                        <h1 class="hero-name" id="hero-name">Roman Malyshev</h1>
+                        <p class="hero-title" id="hero-title">Senior Game Engineer | Unity & Unreal</p>
+                        <p class="hero-location" id="hero-location">Tbilisi - Georgia</p>
+                        <div class="hero-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">DOTS</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about-section" id="about">
+                <div class="card">
+                    <h2 class="section-title" id="about-title">About Me</h2>
+                    <p class="about-content" id="about-content">
+                        <!-- About content will be populated by JavaScript -->
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact Section (Social Links) -->
+            <section class="social-section" id="contact">
+                <div class="social-grid" id="social-links">
+                    <!-- Social links will be populated by JavaScript -->
+                </div>
+            </section>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Projects Section -->
+            <section class="projects-section" id="projects">
+                <div class="section-header">
+                    <h2 class="section-title" id="projects-title">Games Portfolio</h2>
+                </div>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="experience-section" id="experience">
+                <div class="section-header">
+                    <h2 class="section-title" id="experience-title">Experience</h2>
+                </div>
+                <div class="experience-list" id="experience-list">
+                    <!-- Experience items will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills-section" id="skills">
+                <div class="section-header">
+                    <h2 class="section-title" id="skills-title">Skills</h2>
+                </div>
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="education-section" id="education">
+                <div class="section-header">
+                    <h2 class="section-title" id="education-title">Education</h2>
+                </div>
+                <div class="education-list" id="education-list">
+                    <!-- Education items will be populated by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Image Modal -->
+    <div class="modal" id="image-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-nav">
+                <button class="modal-nav-btn" id="modal-prev">‹</button>
+                <button class="modal-nav-btn" id="modal-next">›</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div class="loading-indicator" id="loading-indicator">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/portfolio.js"></script>
+</body>
+</html> 

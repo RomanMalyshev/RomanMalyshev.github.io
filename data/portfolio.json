@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Roman Malyshev Portfolio",
+    "description": "Senior Unity Developer",
+    "favicon": "images/icon.ico"
+  },
+  "header": {
+    "avatar": "images/avatar.jpg",
+    "tagline": "Senior Unity Developer"
+  },
+  "intro": {
+    "name": "Roman Malyshev",
+    "title": "Senior Unity Developer",
+    "location": "Tbilisi - Georgia"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "I'm a Senior Game Engineer with 7+ years in the game industry. My speciality is in Unity Engine (2D, 3D & AR), but I'm also experienced in Unreal Engine 5. My work spans from mobile games (Android & iOS) to larger cross platform multiplayer games (Mobile, Console & PC), with a strong focus on gameplay mechanics, scalable architecture, UI/UX, analytics, progression and AI systems. Throughout my career I've acquired expertise mainly in C# for Unity, but I'm also able to code in C++ and Blueprints (Unreal). I have solid experience in network APIs, such as Mirror Networking and Photon Network. To ensure player progression I use back-end services such as Firebase, Playfab and Accelbyte. On the AI side, I enjoy developing smarter NPCs and bots using GOAP (Goal-Oriented Action Planning) and Behavior Trees, adding depth and strategy to the gameplay."
+  },
+  "projects": [
+    {
+      "title": "ERZ",
+      "genre": "MMO / Sandbox",
+      "description": "A futuristic MMO sandbox where you command mining robots, explore procedural planets, and build underground bases. Automate tasks with programming, trade in a player-driven economy, and shape the world through alliances and competition.",
+      "role": "Senior Unity Developer",
+      "period": "October 2022 - June 2025",
+      "techTags": ["Unity", "TypeScript", "C#"],
+      "contribution": [
+        "Developed and optimized an open-world system using C# and TypeScript, ensuring seamless open-world exploration without performance issues on both PC and browser.",
+        "Designed and developed a visual programming language allowing players to automate game tasks with custom scripts.",
+        "Improved server-client architecture using TypeScript and C#, increasing connection stability and reducing input latency."
+      ],
+      "image": "erz_full",
+      "imageThumb": "erz_full",   
+      "imageFull": "erz_full",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "Steam",
+          "url": "https://store.steampowered.com/app/3337310/ERZ_Online/",
+          "icon": "steam"
+        },
+        {
+          "text": "Official Website",
+          "url": "https://erz.online/",
+          "icon": "globe"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://www.youtube.com/@erzonlinegame/videos",
+          "icon": "youtube"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Lowkick Studio",
+      "url": "",
+      "title": "Senior Unity Developer",
+      "period": "June 2025 - September 2025",
+      "location": "Tbilisi, Georgia",
+      "description": "Working as a Senior Unity Developer on mobile game optimization and team leadership for Android platform porting.",
+      "achievements": [
+        "Optimized Android performance, reducing memory usage by up to 30% and cutting loading times by 40%, ensuring smooth gameplay across mid- and low-end devices",
+        "Increased overall stability by resolving platform-specific crashes and improving compatibility, which reduced crash rate by 25% and expanded supported device coverage",
+        "Planned work and assigned tasks to a team of Unity developers while porting the Android version of our game project, ensuring all deadlines were met"
+      ]
+    },
+    {
+      "company": "Erz Studio",
+      "url": "https://erz.online/",
+      "title": "Senior Unity Developer",
+      "period": "October 2022 - June 2025",
+      "location": "Tbilisi, Georgia",
+      "description": "Developed and optimized open-world MMO sandbox systems using Unity, C# and TypeScript for PC and web platforms.",
+      "achievements": [
+        "Developed and optimized an open-world system using C# and TypeScript, enabling seamless exploration of a vast open world without performance issues on both PC and web browsers",
+        "Designed and implemented an in-game visual scripting system in Unity and C#, allowing players to automate in-game tasks with custom macros",
+        "Enhanced server-client architecture using TypeScript and C#, improving connection stability and reducing input lag"
+      ]
+    },
+    {
+      "company": "Story Mode LLC",
+      "url": "",
+      "title": "Senior Unity Developer",
+      "period": "May 2022 - September 2022",
+      "location": "Warsaw, Poland",
+      "description": "Led Unity development team and implemented blockchain integration for MVP project.",
+      "achievements": [
+        "Designed and implemented client-server architecture with Python and C#, improving connection and blockchain operations time",
+        "Led a team of Unity developers in developing MVP project using Unity and C# to meet all deadlines",
+        "Implemented blockchain-based payment integration with MetaMask, ensuring secure transactions and enhancing payment protection"
+      ]
+    },
+    {
+      "company": "Theoretical Studio",
+      "url": "",
+      "title": "Middle Unity Developer",
+      "period": "August 2021 - May 2022",
+      "location": "Moscow, Russia",
+      "description": "Developed core gameplay mechanics and UI systems for Auto Battler mobile game.",
+      "achievements": [
+        "Developed and optimized core gameplay mechanics for an Auto Battler, implemented algorithms for combat and interaction systems that enhanced user engagement by 10%",
+        "Created UI animations to enhance the user experience, utilizing Unity's animation tools to produce smooth transitions and interactions",
+        "Integrated analytics SDKs into the game using Unity Analytics and Google Firebase to track player behavior, increasing user retention by 15%"
+      ]
+    },
+    {
+      "company": "ARK LLC",
+      "url": "",
+      "title": "Unity/C++ Developer",
+      "period": "September 2019 - August 2021",
+      "location": "Moscow, Russia",
+      "description": "Developed simulation systems using Unity and C++ for engineering training applications.",
+      "achievements": [
+        "Developed a simulation system using Unity and C#, in order to help engineers simulate machinery during training",
+        "Developed firmware for microcontroller devices using C++ to connect the devices to the simulator, improving system responsiveness by 35%",
+        "Programmed a connection feature to connect hardware devices with a simulator application using Unity and C++ to link a simulator application and hardware devices"
+      ]
+    },
+    {
+      "company": "ARK LLC",
+      "url": "",
+      "title": "ActionScript (Flash) / C++ Developer",
+      "period": "September 2017 - August 2019",
+      "location": "Moscow, Russia",
+      "description": "Developed aircraft maintenance training simulators using ActionScript and C++ for microcontrollers.",
+      "achievements": [
+        "Developed an aircraft maintenance system simulator for training purposes",
+        "C++ programming for microcontrollers integrated with the simulation system",
+        "Adobe Animate and ActionScript 3.0 programming for interactive training applications",
+        "UI implementation and UI animations for enhanced user experience"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Unity",
+      "category": "gamedev"
+    },
+    {
+      "name": "C#",
+      "category": "gamedev"
+    },
+    {
+      "name": "Addressables",
+      "category": "gamedev"
+    },
+    {
+      "name": "DOTS",
+      "category": "gamedev"
+    },
+    {
+      "name": "ECS (Entities)",
+      "category": "gamedev"
+    },
+    {
+      "name": "UniTask",
+      "category": "tools"
+    },
+    {
+      "name": "R3 (UniRx)",
+      "category": "tools"
+    },
+    {
+      "name": "Extenject",
+      "category": "tools"
+    },
+    {
+      "name": "MVC/MVP/MVVM",
+      "category": "programming"
+    },
+    {
+      "name": "CPU/GPU/RAM optimisation",
+      "category": "programming"
+    },
+    {
+      "name": "AI-Enhanced Workflow Cursor + MCP",
+      "category": "programming"
+    },
+    {
+      "name": "TypeScript",
+      "category": "platforms"
+    },
+    {
+      "name": "Multiplayer",
+      "category": "platforms"
+    },
+    {
+      "name": "Client Networking",
+      "category": "platforms"
+    },
+    {
+      "name": "Netcode optimisation",
+      "category": "platforms"
+    },
+    {
+      "name": "CI/CD",
+      "category": "other"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Bauman Moscow State Technical University",
+      "url": "",
+      "degree": "Information Technology",
+      "period": "2009 - 2016",
+      "location": "Moscow, Russia"
+    }
+  ],
+  "language": {
+    "current": "en",
+    "selector": {
+      "ru": {
+        "text": "Русская версия",
+        "url": "index.html?lang=ru"
+      }
+    },
+    "available": ["en", "ru"]
+  }
+} 
