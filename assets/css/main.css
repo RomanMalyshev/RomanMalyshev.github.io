@@ -222,7 +222,7 @@ body {
 .container {
     max-width: 375px;
     margin: 0 auto;
-    padding-top: calc(var(--nav-height) + var(--spacing-lg));
+    padding-top: calc(var(--nav-height) + var(--spacing-2xl));
     padding-bottom: var(--spacing-5xl);
     min-height: 100vh;
     transition: all 0.3s ease;
@@ -239,18 +239,19 @@ body {
         display: grid;
         grid-template-columns: 400px 1fr;
         gap: var(--spacing-5xl);
-        padding: calc(var(--nav-height) + var(--spacing-2xl)) var(--spacing-2xl) var(--spacing-5xl);
+        padding: calc(var(--nav-height) + var(--spacing-3xl)) var(--spacing-2xl) var(--spacing-5xl);
         align-items: start;
     }
     
     .sidebar {
         position: sticky;
-        top: calc(var(--nav-height) + var(--spacing-2xl));
-        max-height: calc(100vh - var(--nav-height) - var(--spacing-4xl));
+        top: calc(var(--nav-height) + var(--spacing-3xl));
+        max-height: calc(100vh - var(--nav-height) - var(--spacing-5xl));
         overflow-y: auto;
         scroll-behavior: smooth;
         scrollbar-width: thin;
-        scrollbar-color: var(--accent-primary) var(--bg-tertiary);
+        scrollbar-color: var(--accent-primary) transparent;
+        padding-right: var(--spacing-sm);
     }
     
     .sidebar::-webkit-scrollbar {
@@ -258,8 +259,9 @@ body {
     }
     
     .sidebar::-webkit-scrollbar-track {
-        background: var(--bg-tertiary);
+        background: transparent;
         border-radius: var(--radius-full);
+        margin-top: var(--spacing-lg);
     }
     
     .sidebar::-webkit-scrollbar-thumb {
@@ -272,7 +274,8 @@ body {
     }
     
     .sidebar .hero-section {
-        padding-top: 0;
+        padding-top: 12;
+        margin-top: 12;
         margin-bottom: var(--spacing-2xl);
     }
     
@@ -372,7 +375,8 @@ section {
 
 /* Hero Section */
 .hero-section {
-    padding-top: var(--spacing-2xl);
+    padding-top: var(--spacing-lg);
+    margin-top: var(--spacing-md);
 }
 
 .hero-card {

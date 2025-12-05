@@ -242,7 +242,13 @@ class ModernPortfolioManager {
      * Render social links
      */
     renderSocialLinks() {
+        const contactTitle = document.getElementById('contact-title');
         const socialContainer = document.getElementById('social-links');
+        
+        if (contactTitle) {
+            contactTitle.textContent = this.currentLanguage === 'ru' ? 'Контакты' : 'Contact';
+        }
+        
         if (!socialContainer || !this.socialData?.social) return;
         
         const socialHTML = this.socialData.social.map(social => `
@@ -280,7 +286,15 @@ class ModernPortfolioManager {
         const aboutContent = document.getElementById('about-content');
         
         if (aboutTitle) aboutTitle.textContent = this.data.about.title;
-        if (aboutContent) aboutContent.textContent = this.data.about.content;
+        if (aboutContent) {
+            // Convert newlines to <br> tags for proper formatting
+            const formattedContent = this.data.about.content
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/\n/g, '<br>');
+            aboutContent.innerHTML = formattedContent;
+        }
     }
 
     /**
