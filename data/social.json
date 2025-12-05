@@ -1,0 +1,32 @@
+{
+  "social": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/roman-m-0738211a2/",
+      "icon": "fa-linkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/RomanMalyshev",
+      "icon": "fa-github"
+    },
+    {
+      "name": "Itch.io",
+      "url": "https://noagard.itch.io/",
+      "icon": "fa-itch-io"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:noagard@gmail.com",
+      "icon": "fa-envelope",
+      "isSolid": true
+    },
+    {
+      "name": "CV",
+      "url": "https://drive.google.com/file/d/1j5Gg40jMvkFlm682rj9CePr26xn8GF80/view?usp=sharing",
+      "icon": "fa-file-pdf",
+      "isSolid": true
+    }
+  ]
+}
+
