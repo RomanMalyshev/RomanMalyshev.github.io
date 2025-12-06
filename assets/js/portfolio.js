@@ -376,9 +376,13 @@ class ModernPortfolioManager {
             'website': '<i class="fas fa-globe"></i>',
             'официальный сайт': '<i class="fas fa-globe"></i>',
             'official site': '<i class="fas fa-globe"></i>',
+            'official website': '<i class="fas fa-globe"></i>',
             'github': '<i class="fab fa-github"></i>',
             'play store': '<i class="fab fa-google-play"></i>',
+            'google play': '<i class="fab fa-google-play"></i>',
+            'google-play': '<i class="fab fa-google-play"></i>',
             'app store': '<i class="fab fa-apple"></i>',
+            'apple': '<i class="fab fa-apple"></i>',
             'itch.io': '<i class="fab fa-itch-io"></i>',
             'discord': '<i class="fab fa-discord"></i>'
         };

@@ -19,6 +19,66 @@
   },
   "projects": [
     {
+      "title": "MagicCraft",
+      "genre": "MOBA / PvP",
+      "description": "PvP мультиплеерная MOBA в мире магии. Выбирайте уникальных персонажей с разными навыками и способностями, колдуйте заклинания, объединяйтесь с игроками и сражайтесь в эпичных аренных боях.",
+      "role": "Senior Unity Developer",
+      "period": "Май 2022 - Сентябрь 2022",
+      "techTags": ["Unity", "C#", "Python", "Blockchain"],
+      "contribution": [
+        "Спроектировал и реализовал клиент-серверную архитектуру на Python и C#, улучшив время соединения и блокчейн-операций.",
+        "Возглавлял команду Unity-разработчиков при разработке MVP-проекта на Unity и C#, обеспечив соблюдение всех дедлайнов.",
+        "Реализовал блокчейн-интеграцию платежей с MetaMask, обеспечив безопасность транзакций и защиту платежей."
+      ],
+      "image": "magiccraft",
+      "imageThumb": "magiccraft",   
+      "imageFull": "magiccraft",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "Steam",
+          "url": "https://store.steampowered.com/app/2395760/MagicCraft/",
+          "icon": "steam"
+        },
+        {
+          "text": "Официальный сайт",
+          "url": "https://magiccraft.io/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "WorldShards",
+      "genre": "Sandbox MMORPG",
+      "description": "Лайф-сим песочница MMORPG в магическом мире летающих островов. Исследуйте, крафтите, стройте свой островной рай и подружитесь с очаровательными Мяуклами в разрушенном мире Мурландии.",
+      "role": "Senior Unity Developer",
+      "period": "Июнь 2025 - Сентябрь 2025",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "contribution": [
+        "Оптимизировал производительность Android, снизив использование памяти до 30% и сократив время загрузки на 40%, обеспечив плавный геймплей на устройствах среднего и бюджетного сегмента.",
+        "Повысил общую стабильность, устранив платформенно-специфичные краши и улучшив совместимость, что снизило процент падений на 25% и расширило поддержку устройств.",
+        "Планировал работу и распределял задачи команде Unity-разработчиков при портировании Android-версии игры, обеспечивая соблюдение всех дедлайнов."
+      ],
+      "image": "worldshards",
+      "imageThumb": "worldshards",   
+      "imageFull": "worldshards",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "Steam",
+          "url": "https://store.steampowered.com/app/2156390/WorldShards/",
+          "icon": "steam"
+        },
+        {
+          "text": "Официальный сайт",
+          "url": "https://www.worldshards.online/en",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "title": "ERZ",
       "genre": "MMO / Sandbox",
       "description": "Футуристическая MMO-песочница, где вы управляете добывающими роботами, исследуете процедурно генерируемые планеты и строите подземные базы. Автоматизируйте задачи с помощью программирования, торгуйте в игровой экономике и влияйте на мир через альянсы и конкуренцию.",
@@ -50,6 +110,41 @@
           "text": "YouTube",
           "url": "https://www.youtube.com/@erzonlinegame/videos",
           "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "title": "Pocket Squad",
+      "genre": "Auto Battler / CCG",
+      "description": "PvP коллекционная карточная игра с шахматными авто-боями. Собирайте уникальных героев, стройте стратегические колоды и сражайтесь в быстрых 1-3 минутных аренных матчах.",
+      "role": "Middle Unity Developer",
+      "period": "Август 2021 - Май 2022",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "contribution": [
+        "Разработал и оптимизировал основные игровые механики для Auto Battler, внедрил алгоритмы боевой системы и систем взаимодействия, повысившие вовлечённость пользователей на 10%.",
+        "Создал UI-анимации для улучшения пользовательского опыта, используя инструменты анимации Unity для создания плавных переходов и взаимодействий.",
+        "Интегрировал SDK аналитики в игру с использованием Unity Analytics и Google Firebase для отслеживания поведения игроков, повысив удержание пользователей на 15%."
+      ],
+      "image": "pocketsquad",
+      "imageThumb": "pocketsquad",   
+      "imageFull": "pocketsquad",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "App Store",
+          "url": "https://apps.apple.com/us/app/pocket-squad-pvp-battle-arena/id1609515393",
+          "icon": "apple"
+        },
+        {
+          "text": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow&hl=en&gl=US",
+          "icon": "google-play"
+        },
+        {
+          "text": "Официальный сайт",
+          "url": "https://theoretical.studio/pocket-squad.html",
+          "icon": "globe"
         }
       ]
     }

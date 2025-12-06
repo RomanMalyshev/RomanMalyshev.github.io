@@ -19,6 +19,66 @@
   },
   "projects": [
     {
+      "title": "MagicCraft",
+      "genre": "MOBA / PvP",
+      "description": "A PvP multiplayer MOBA set in a world of magic. Choose from unique characters with different skills and abilities, cast spells, team up with players, and battle in epic arena combat.",
+      "role": "Senior Unity Developer",
+      "period": "May 2022 - September 2022",
+      "techTags": ["Unity", "C#", "Python", "Blockchain"],
+      "contribution": [
+        "Designed and implemented client-server architecture with Python and C#, improving connection and blockchain operations time.",
+        "Led a team of Unity developers in developing MVP project using Unity and C# to meet all deadlines.",
+        "Implemented blockchain-based payment integration with MetaMask, ensuring secure transactions and enhancing payment protection."
+      ],
+      "image": "magiccraft",
+      "imageThumb": "magiccraft",   
+      "imageFull": "magiccraft",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "Steam",
+          "url": "https://store.steampowered.com/app/2395760/MagicCraft/",
+          "icon": "steam"
+        },
+        {
+          "text": "Official Website",
+          "url": "https://magiccraft.io/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "WorldShards",
+      "genre": "Sandbox MMORPG",
+      "description": "A life-sim sandbox MMORPG set in a magical world of flying islands. Explore, craft, build your island paradise, and befriend adorable Meowkles in the shattered world of Murrlandia.",
+      "role": "Senior Unity Developer",
+      "period": "June 2025 - September 2025",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "contribution": [
+        "Optimized Android performance, reducing memory usage by up to 30% and cutting loading times by 40%, ensuring smooth gameplay across mid- and low-end devices.",
+        "Increased overall stability by resolving platform-specific crashes and improving compatibility, which reduced crash rate by 25% and expanded supported device coverage.",
+        "Planned work and assigned tasks to a team of Unity developers while porting the Android version of the game, ensuring all deadlines were met."
+      ],
+      "image": "worldshards",
+      "imageThumb": "worldshards",   
+      "imageFull": "worldshards",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "Steam",
+          "url": "https://store.steampowered.com/app/2156390/WorldShards/",
+          "icon": "steam"
+        },
+        {
+          "text": "Official Website",
+          "url": "https://www.worldshards.online/en",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "title": "ERZ",
       "genre": "MMO / Sandbox",
       "description": "A futuristic MMO sandbox where you command mining robots, explore procedural planets, and build underground bases. Automate tasks with programming, trade in a player-driven economy, and shape the world through alliances and competition.",
@@ -50,6 +110,41 @@
           "text": "YouTube",
           "url": "https://www.youtube.com/@erzonlinegame/videos",
           "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "title": "Pocket Squad",
+      "genre": "Auto Battler / CCG",
+      "description": "A PvP collection card game with chess-inspired auto-battles. Collect unique heroes, build strategic decks, and compete in quick 1-3 minute arena matches across platforms.",
+      "role": "Middle Unity Developer",
+      "period": "August 2021 - May 2022",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "contribution": [
+        "Developed and optimized core gameplay mechanics for an Auto Battler, implemented algorithms for combat and interaction systems that enhanced user engagement by 10%.",
+        "Created UI animations to enhance the user experience, utilizing Unity's animation tools to produce smooth transitions and interactions.",
+        "Integrated analytics SDKs into the game using Unity Analytics and Google Firebase to track player behavior, increasing user retention by 15%."
+      ],
+      "image": "pocketsquad",
+      "imageThumb": "pocketsquad",   
+      "imageFull": "pocketsquad",
+      "imageExtension": "png",
+      "featured": false,
+      "links": [
+        {
+          "text": "App Store",
+          "url": "https://apps.apple.com/us/app/pocket-squad-pvp-battle-arena/id1609515393",
+          "icon": "apple"
+        },
+        {
+          "text": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow&hl=en&gl=US",
+          "icon": "google-play"
+        },
+        {
+          "text": "Official Website",
+          "url": "https://theoretical.studio/pocket-squad.html",
+          "icon": "globe"
         }
       ]
     }
