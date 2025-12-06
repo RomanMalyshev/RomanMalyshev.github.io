@@ -251,12 +251,16 @@ class ModernPortfolioManager {
         
         if (!socialContainer || !this.socialData?.social) return;
         
-        const socialHTML = this.socialData.social.map(social => `
-            <a href="${social.url}" target="_blank" rel="noopener noreferrer" class="social-link">
+        const socialHTML = this.socialData.social.map(social => {
+            // Support language-specific URLs (e.g., for CV)
+            const url = social.urls?.[this.currentLanguage] || social.url;
+            return `
+            <a href="${url}" target="_blank" rel="noopener noreferrer" class="social-link">
                 <div class="social-icon">${this.getSocialIcon(social.icon)}</div>
                 <div class="social-name">${social.name}</div>
             </a>
-        `).join('');
+        `;
+        }).join('');
         
         socialContainer.innerHTML = socialHTML;
     }

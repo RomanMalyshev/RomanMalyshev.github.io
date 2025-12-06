@@ -147,6 +147,56 @@
           "icon": "globe"
         }
       ]
+    },
+    {
+      "title": "Save The Fluffy",
+      "genre": "Головоломка",
+      "description": "Экшен-головоломка, где вы спасаете кота, уворачиваясь от пуль, отталкивая динамит, останавливая поезда и перематывая время. Честные испытания в разнообразных локациях.",
+      "role": "Middle Unity Developer",
+      "period": "Август 2021 - Май 2022",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "contribution": [
+        "Разработал и оптимизировал основные игровые механики для Auto Battler, внедрил алгоритмы боевой системы и систем взаимодействия, повысившие вовлечённость пользователей на 10%.",
+        "Создал UI-анимации для улучшения пользовательского опыта, используя инструменты анимации Unity для создания плавных переходов и взаимодействий.",
+        "Интегрировал SDK аналитики в игру с использованием Unity Analytics и Google Firebase для отслеживания поведения игроков, повысив удержание пользователей на 15%."
+      ],
+      "image": "savethefluffy",
+      "imageThumb": "savethefluffy",   
+      "imageFull": "savethefluffy",
+      "imageExtension": "webp",
+      "featured": false,
+      "links": [
+        {
+          "text": "App Store",
+          "url": "https://apps.apple.com/us/app/save-the-fluffy-premium/id1637232302",
+          "icon": "apple"
+        }
+      ]
+    },
+    {
+      "title": "Zombie Horde",
+      "genre": "Гипер-казуал",
+      "description": "Весёлая зомби-игра, сочетающая казуальный экшен и головоломки. Распространяйте чуму, прокрадывайтесь мимо врагов и превращайте охотников в свою орду нежити.",
+      "role": "Unity Developer",
+      "period": "2020 - 2021",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "contribution": [
+        "Разработал систему AI толпы для поведения орды зомби и взаимодействия с врагами.",
+        "Реализовал систему укрытий, позволяющую врагам прятаться и устраивать засады.",
+        "Добавил новый контент: уровни, врагов и игровые механики."
+      ],
+      "image": "zombiehorde",
+      "imageThumb": "zombiehorde",   
+      "imageFull": "zombiehorde",
+      "imageExtension": "webp",
+      "featured": false,
+      "links": [
+        {
+          "text": "App Store",
+          "url": "https://apps.apple.com/us/app/zombie-horde-infect-em-all/id1552365661",
+          "icon": "apple"
+        }
+      ]
     }
   ],
   "experience": [

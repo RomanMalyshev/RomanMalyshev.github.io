@@ -24,6 +24,10 @@
     {
       "name": "CV",
       "url": "https://drive.google.com/file/d/1j5Gg40jMvkFlm682rj9CePr26xn8GF80/view?usp=sharing",
+      "urls": {
+        "en": "https://drive.google.com/file/d/1j5Gg40jMvkFlm682rj9CePr26xn8GF80/view?usp=sharing",
+        "ru": "https://drive.google.com/file/d/1j5Gg40jMvkFlm682rj9CePr26xn8GF80/view?usp=sharing"
+      },
       "icon": "fa-file-pdf",
       "isSolid": true
     }
