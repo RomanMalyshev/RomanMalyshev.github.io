@@ -19,32 +19,37 @@
   },
   "projects": [
     {
-      "title": "MagicCraft",
-      "genre": "MOBA / PvP",
-      "description": "A PvP multiplayer MOBA set in a world of magic. Choose from unique characters with different skills and abilities, cast spells, team up with players, and battle in epic arena combat.",
+      "title": "ERZ",
+      "genre": "MMO / Sandbox",
+      "description": "A futuristic MMO sandbox where you command mining robots, explore procedural planets, and build underground bases. Automate tasks with programming, trade in a player-driven economy, and shape the world through alliances and competition.",
       "role": "Senior Unity Developer",
-      "period": "May 2022 - September 2022",
-      "techTags": ["Unity", "C#", "Python", "Blockchain"],
+      "period": "October 2022 - June 2025",
+      "techTags": ["Unity", "TypeScript", "C#"],
       "contribution": [
-        "Designed and implemented client-server architecture with Python and C#, improving connection and blockchain operations time.",
-        "Led a team of Unity developers in developing MVP project using Unity and C# to meet all deadlines.",
-        "Implemented blockchain-based payment integration with MetaMask, ensuring secure transactions and enhancing payment protection."
+        "Developed and optimized an open-world system using C# and TypeScript, ensuring seamless open-world exploration without performance issues on both PC and browser.",
+        "Designed and developed a visual programming language allowing players to automate game tasks with custom scripts.",
+        "Improved server-client architecture using TypeScript and C#, increasing connection stability and reducing input latency."
       ],
-      "image": "magiccraft",
-      "imageThumb": "magiccraft",   
-      "imageFull": "magiccraft",
+      "image": "erz_full",
+      "imageThumb": "erz_full",   
+      "imageFull": "erz_full",
       "imageExtension": "png",
       "featured": false,
       "links": [
         {
           "text": "Steam",
-          "url": "https://store.steampowered.com/app/2395760/MagicCraft/",
+          "url": "https://store.steampowered.com/app/3337310/ERZ_Online/",
           "icon": "steam"
         },
         {
           "text": "Official Website",
-          "url": "https://magiccraft.io/",
+          "url": "https://erz.online/",
           "icon": "globe"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://www.youtube.com/@erzonlinegame/videos",
+          "icon": "youtube"
         }
       ]
     },
@@ -79,37 +84,32 @@
       ]
     },
     {
-      "title": "ERZ",
-      "genre": "MMO / Sandbox",
-      "description": "A futuristic MMO sandbox where you command mining robots, explore procedural planets, and build underground bases. Automate tasks with programming, trade in a player-driven economy, and shape the world through alliances and competition.",
+      "title": "MagicCraft",
+      "genre": "MOBA / PvP",
+      "description": "A PvP multiplayer MOBA set in a world of magic. Choose from unique characters with different skills and abilities, cast spells, team up with players, and battle in epic arena combat.",
       "role": "Senior Unity Developer",
-      "period": "October 2022 - June 2025",
-      "techTags": ["Unity", "TypeScript", "C#"],
+      "period": "May 2022 - September 2022",
+      "techTags": ["Unity", "C#", "Python", "Blockchain"],
       "contribution": [
-        "Developed and optimized an open-world system using C# and TypeScript, ensuring seamless open-world exploration without performance issues on both PC and browser.",
-        "Designed and developed a visual programming language allowing players to automate game tasks with custom scripts.",
-        "Improved server-client architecture using TypeScript and C#, increasing connection stability and reducing input latency."
+        "Designed and implemented client-server architecture with Python and C#, improving connection and blockchain operations time.",
+        "Led a team of Unity developers in developing MVP project using Unity and C# to meet all deadlines.",
+        "Implemented blockchain-based payment integration with MetaMask, ensuring secure transactions and enhancing payment protection."
       ],
-      "image": "erz_full",
-      "imageThumb": "erz_full",   
-      "imageFull": "erz_full",
+      "image": "magiccraft",
+      "imageThumb": "magiccraft",   
+      "imageFull": "magiccraft",
       "imageExtension": "png",
       "featured": false,
       "links": [
         {
           "text": "Steam",
-          "url": "https://store.steampowered.com/app/3337310/ERZ_Online/",
+          "url": "https://store.steampowered.com/app/2395760/MagicCraft/",
           "icon": "steam"
         },
         {
           "text": "Official Website",
-          "url": "https://erz.online/",
+          "url": "https://magiccraft.io/",
           "icon": "globe"
-        },
-        {
-          "text": "YouTube",
-          "url": "https://www.youtube.com/@erzonlinegame/videos",
-          "icon": "youtube"
         }
       ]
     },
@@ -350,7 +350,7 @@
     {
       "institution": "Bauman Moscow State Technical University",
       "url": "",
-      "degree": "Information Technology",
+      "degree": "Computer Science and Control Systems",
       "period": "2009 - 2016",
       "location": "Moscow, Russia"
     }
