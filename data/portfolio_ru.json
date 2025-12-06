@@ -128,7 +128,7 @@
       "image": "pocketsquad",
       "imageThumb": "pocketsquad",   
       "imageFull": "pocketsquad",
-      "imageExtension": "png",
+      "imageExtension": "jpg",
       "featured": false,
       "links": [
         {
@@ -163,7 +163,7 @@
       "image": "savethefluffy",
       "imageThumb": "savethefluffy",   
       "imageFull": "savethefluffy",
-      "imageExtension": "webp",
+      "imageExtension": "png",
       "featured": false,
       "links": [
         {
@@ -188,7 +188,7 @@
       "image": "zombiehorde",
       "imageThumb": "zombiehorde",   
       "imageFull": "zombiehorde",
-      "imageExtension": "webp",
+      "imageExtension": "png",
       "featured": false,
       "links": [
         {
@@ -353,6 +353,184 @@
       "degree": "Информатика и системы управления",
       "period": "2009 - 2016",
       "location": "Москва, Россия"
+    }
+  ],
+  "jams": [
+    {
+      "title": "Unsmith",
+      "genre": "RPG",
+      "description": "Нестабильный кузнец продаёт вам магические предметы, чтобы вы стали могущественнее. Ещё могущественнее! ЕЩЁ МОГУЩЕСТВЕННЕЕ!! САМЫМ МОГУЩЕСТВЕННЫМ!!!",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 49",
+      "contribution": [
+        "Разработал систему генерации предметов и магического снаряжения",
+        "Реализовал механики масштабирования силы"
+      ],
+      "image": "unsmith",
+      "imageThumb": "unsmith",
+      "imageFull": "unsmith",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/49/unsmith",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "Nuclear Shuttle",
+      "genre": "Выживание",
+      "description": "Игра на выживание во время ядерного апокалипсиса. Управляйте ресурсами и принимайте сложные решения, чтобы выжить в разрушенном мире.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 50",
+      "contribution": [
+        "Разработал механики выживания и систему управления ресурсами",
+        "Реализовал прогрессию игры и системы принятия решений"
+      ],
+      "image": "nuclearshuttle",
+      "imageThumb": "nuclearshuttle",
+      "imageFull": "nuclearshuttle",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/50/nuclear-shuttle",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "Neon Barrier",
+      "genre": "Tower Defense / Головоломка",
+      "description": "Стройте стены, чтобы защитить базу и направить врагов под огонь башен. Башни уничтожают врагов, но строить их нельзя — стратегическое размещение стен — ключ к победе!",
+      "techTags": ["Unity", "C#"],
+      "event": "Game Jam",
+      "contribution": [
+        "Разработал механики строительства стен и поиск пути врагов",
+        "Реализовал систему прицеливания башен и боевую систему"
+      ],
+      "image": "neonbarrier",
+      "imageThumb": "neonbarrier",
+      "imageFull": "neonbarrier",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/neon-barrier",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Kaboom-Aconda",
+      "genre": "Экшен",
+      "description": "Ешь, чтобы расти! Что будет, если змея съест радиоактивного паука с пушкой?",
+      "techTags": ["Unity", "C#"],
+      "event": "GMTK Game Jam 2024",
+      "contribution": [
+        "Разработал механики движения и роста змеи",
+        "Реализовал систему оружия и эффекты усилений"
+      ],
+      "image": "kaboomaconda",
+      "imageThumb": "kaboomaconda",
+      "imageFull": "kaboomaconda",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://pulni.itch.io/kaboom-aconda",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Chaotic Chess",
+      "genre": "Головоломка / Симулятор",
+      "description": "Представьте шахматную партию, где каждые несколько ходов добавляется новое правило. Сначала это удивляет и сбивает с толку, но чем дальше идёт игра, тем больше... хаоса!",
+      "techTags": ["Unity", "C#"],
+      "event": "Brackeys Game Jam 2024.2",
+      "contribution": [
+        "Разработал основные шахматные механики и игровую логику",
+        "Реализовал динамическую систему правил для хаотичного геймплея"
+      ],
+      "image": "chaoticchess",
+      "imageThumb": "chaoticchess",
+      "imageFull": "chaoticchess",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://ramixang.itch.io/chaotic-chess",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Steam Forge",
+      "genre": "Пошаговая RPG",
+      "description": "Пошаговая RPG, в которой вам предстоит выбрать сторону — людей или машин в мире стимпанка!",
+      "techTags": ["Unity", "C#"],
+      "event": "RPG Mania V",
+      "contribution": [
+        "Разработал пошаговую боевую систему и механики персонажей",
+        "Реализовал систему выбора фракции, влияющую на геймплей"
+      ],
+      "image": "steamforge",
+      "imageThumb": "steamforge",
+      "imageFull": "steamforge",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/steam-forge",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Table Lord",
+      "genre": "Пошаговая стратегия",
+      "description": "Пошаговая стратегия, в которой вы становитесь лордом, стремящимся объединить раздробленные земли под одним знаменем. Расширяйте территорию, собирайте ресурсы и наращивайте мощь армии для захвата вражеских замков. Мудро управляйте влиянием, силой и богатством — каждое решение формирует баланс сил в королевстве.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 58",
+      "contribution": [
+        "Разработал пошаговые игровые механики и систему управления ресурсами",
+        "Реализовал механики расширения территории и строительства армии"
+      ],
+      "image": "tablelord",
+      "imageThumb": "tablelord",
+      "imageFull": "tablelord",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/ld58",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "View in the Depth",
+      "genre": "Симулятор",
+      "description": "Медитативное путешествие в неизведанное, где вы берёте на себя роль оператора оптического телескопа, вглядывающегося в глубины космоса. Управляйте телескопом, находите новые объекты по силе сигнала, фиксируйте цели и собирайте данные, настраивая зум и фокус.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 57",
+      "contribution": [
+        "Разработал основные игровые механики, включая управление телескопом и систему отслеживания сигнала",
+        "Реализовал механики зума и фокусировки для сбора данных"
+      ],
+      "image": "viewinthedepth",
+      "imageThumb": "viewinthedepth",
+      "imageFull": "viewinthedepth",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/viewinthedepth",
+          "icon": "itch.io"
+        }
+      ]
     }
   ],
   "language": {

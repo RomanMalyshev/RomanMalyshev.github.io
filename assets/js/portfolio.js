@@ -210,6 +210,7 @@ class ModernPortfolioManager {
         this.renderSocialLinks();
         this.renderAboutSection();
         this.renderProjectsSection();
+        this.renderJamsSection();
         this.renderExperienceSection();
         this.renderSkillsSection();
         this.renderEducationSection();
@@ -365,6 +366,70 @@ class ModernPortfolioManager {
         }).join('');
         
         projectsGrid.innerHTML = projectsHTML;
+    }
+
+    /**
+     * Render jams section
+     */
+    renderJamsSection() {
+        const jamsTitle = document.getElementById('jams-title');
+        const jamsGrid = document.getElementById('jams-grid');
+        
+        if (jamsTitle) {
+            jamsTitle.textContent = this.currentLanguage === 'ru' ? 'Джемы' : 'Jams';
+        }
+        
+        if (!jamsGrid || !this.data.jams) return;
+        
+        const contributionLabel = this.currentLanguage === 'ru' ? 'мой вклад:' : 'my contribution:';
+        
+        const jamsHTML = this.data.jams.map((jam) => {
+            const ext = jam.imageExtension || 'png';
+            const thumbImage = jam.imageThumb || jam.image;
+            
+            return `
+                <div class="jam-card">
+                    <img 
+                        src="images/thumbs/${thumbImage}.${ext}" 
+                        alt="${jam.title}"
+                        class="jam-image"
+                    >
+                    <div class="jam-content">
+                        <div class="jam-header">
+                            <h3 class="jam-title">${jam.title}</h3>
+                            ${jam.genre ? `<span class="jam-genre">${jam.genre}</span>` : ''}
+                        </div>
+                        ${jam.event ? `<div class="jam-event">${jam.event}</div>` : ''}
+                        ${jam.techTags && jam.techTags.length > 0 ? `
+                            <div class="jam-tech-tags">
+                                ${jam.techTags.map(tag => `<span class="tech-tag">[${tag}]</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <p class="jam-description">${jam.description}</p>
+                        ${jam.contribution && (Array.isArray(jam.contribution) ? jam.contribution.length > 0 : jam.contribution) ? `
+                            <div class="jam-contribution">
+                                <span class="contribution-label">${contributionLabel}</span>
+                                ${Array.isArray(jam.contribution) ? `
+                                    <ul class="contribution-list">
+                                        ${jam.contribution.map(item => `<li>${item}</li>`).join('')}
+                                    </ul>
+                                ` : `<p class="contribution-text">${jam.contribution}</p>`}
+                            </div>
+                        ` : ''}
+                        <div class="jam-links">
+                            ${jam.links.map(link => `
+                                <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <span class="project-link-icon">${this.getLinkIcon(link.icon || link.text)}</span>
+                                    <span>${link.text}</span>
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        jamsGrid.innerHTML = jamsHTML;
     }
 
     /**
@@ -875,6 +940,7 @@ class ModernPortfolioManager {
                 navTitle: 'Navigation',
                 about: 'About',
                 projects: 'Projects',
+                jams: 'Jams',
                 experience: 'Experience',
                 skills: 'Skills',
                 education: 'Education',
@@ -884,6 +950,7 @@ class ModernPortfolioManager {
                 navTitle: 'Навигация',
                 about: 'Обо мне',
                 projects: 'Проекты',
+                jams: 'Джемы',
                 experience: 'Опыт',
                 skills: 'Навыки',
                 education: 'Образование',
@@ -901,6 +968,7 @@ class ModernPortfolioManager {
         // Update navigation links
         const navAbout = document.getElementById('nav-about');
         const navProjects = document.getElementById('nav-projects');
+        const navJams = document.getElementById('nav-jams');
         const navExperience = document.getElementById('nav-experience');
         const navSkills = document.getElementById('nav-skills');
         const navEducation = document.getElementById('nav-education');
@@ -908,6 +976,7 @@ class ModernPortfolioManager {
         
         if (navAbout) navAbout.textContent = currentLabels.about;
         if (navProjects) navProjects.textContent = currentLabels.projects;
+        if (navJams) navJams.textContent = currentLabels.jams;
         if (navExperience) navExperience.textContent = currentLabels.experience;
         if (navSkills) navSkills.textContent = currentLabels.skills;
         if (navEducation) navEducation.textContent = currentLabels.education;

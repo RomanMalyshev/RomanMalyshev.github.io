@@ -128,7 +128,7 @@
       "image": "pocketsquad",
       "imageThumb": "pocketsquad",   
       "imageFull": "pocketsquad",
-      "imageExtension": "png",
+      "imageExtension": "jpg",
       "featured": false,
       "links": [
         {
@@ -163,7 +163,7 @@
       "image": "savethefluffy",
       "imageThumb": "savethefluffy",   
       "imageFull": "savethefluffy",
-      "imageExtension": "webp",
+      "imageExtension": "png",
       "featured": false,
       "links": [
         {
@@ -188,7 +188,7 @@
       "image": "zombiehorde",
       "imageThumb": "zombiehorde",   
       "imageFull": "zombiehorde",
-      "imageExtension": "webp",
+      "imageExtension": "png",
       "featured": false,
       "links": [
         {
@@ -353,6 +353,184 @@
       "degree": "Computer Science and Control Systems",
       "period": "2009 - 2016",
       "location": "Moscow, Russia"
+    }
+  ],
+  "jams": [
+    {
+      "title": "Unsmith",
+      "genre": "RPG",
+      "description": "Unstable blacksmith sells you magic items so you can be powerful. More powerful! MORE POWERFUL!! THE MOST POWERFUL!!!",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 49",
+      "contribution": [
+        "Developed item generation and magic equipment system",
+        "Implemented power scaling mechanics"
+      ],
+      "image": "unsmith",
+      "imageThumb": "unsmith",
+      "imageFull": "unsmith",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/49/unsmith",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "Nuclear Shuttle",
+      "genre": "Survival",
+      "description": "A survival game set during a nuclear apocalypse. Manage resources and make tough decisions to stay alive in a devastated world.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 50",
+      "contribution": [
+        "Developed survival mechanics and resource management system",
+        "Implemented game progression and decision-making systems"
+      ],
+      "image": "nuclearshuttle",
+      "imageThumb": "nuclearshuttle",
+      "imageFull": "nuclearshuttle",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/50/nuclear-shuttle",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "Neon Barrier",
+      "genre": "Tower Defense / Puzzle",
+      "description": "Build walls to defend your base and guide enemies into tower range. Towers help destroy enemies but you can't build them — strategic wall placement is key to victory!",
+      "techTags": ["Unity", "C#"],
+      "event": "Game Jam",
+      "contribution": [
+        "Developed wall building mechanics and enemy pathfinding",
+        "Implemented tower targeting and combat system"
+      ],
+      "image": "neonbarrier",
+      "imageThumb": "neonbarrier",
+      "imageFull": "neonbarrier",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/neon-barrier",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Kaboom-Aconda",
+      "genre": "Action",
+      "description": "Eat to grow your snake! What happens when you eat a radioactive spider with a gun?",
+      "techTags": ["Unity", "C#"],
+      "event": "GMTK Game Jam 2024",
+      "contribution": [
+        "Developed snake movement and growth mechanics",
+        "Implemented weapon systems and power-up effects"
+      ],
+      "image": "kaboomaconda",
+      "imageThumb": "kaboomaconda",
+      "imageFull": "kaboomaconda",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://pulni.itch.io/kaboom-aconda",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Chaotic Chess",
+      "genre": "Puzzle / Simulation",
+      "description": "Imagine playing a chess game where a new rule gets added every few turns. It could be surprising and unexpected at first, but as the game goes on, it becomes a little more... chaotic!",
+      "techTags": ["Unity", "C#"],
+      "event": "Brackeys Game Jam 2024.2",
+      "contribution": [
+        "Developed core chess mechanics and game logic",
+        "Implemented dynamic rule system for chaotic gameplay"
+      ],
+      "image": "chaoticchess",
+      "imageThumb": "chaoticchess",
+      "imageFull": "chaoticchess",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://ramixang.itch.io/chaotic-chess",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Steam Forge",
+      "genre": "Turn-based RPG",
+      "description": "Turn-based RPG where you have to choose which side you are on — the side of people or machines in the world of steampunk!",
+      "techTags": ["Unity", "C#"],
+      "event": "RPG Mania V",
+      "contribution": [
+        "Developed turn-based combat system and character mechanics",
+        "Implemented faction choice system affecting gameplay"
+      ],
+      "image": "steamforge",
+      "imageThumb": "steamforge",
+      "imageFull": "steamforge",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/steam-forge",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Table Lord",
+      "genre": "Turn-based Strategy",
+      "description": "A turn-based strategy game where you rise as a lord seeking to unite fractured lands under one banner. Expand your territory, gather resources, and build your army to conquer rival castles. Manage influence, might, and wealth wisely — every choice shapes the balance of power.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 58",
+      "contribution": [
+        "Developed turn-based gameplay mechanics and resource management system",
+        "Implemented territory expansion and army building mechanics"
+      ],
+      "image": "tablelord",
+      "imageThumb": "tablelord",
+      "imageFull": "tablelord",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/ld58",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "View in the Depth",
+      "genre": "Simulation",
+      "description": "A meditative journey into the unknown where you take on the role of an optical telescope operator, gazing deep into the cosmos. Control your telescope to find new objects by tracking signal strength, then lock onto targets and collect data by adjusting zoom and focus.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 57",
+      "contribution": [
+        "Developed core gameplay mechanics including telescope control and signal tracking system",
+        "Implemented zoom and focus mechanics for data collection"
+      ],
+      "image": "viewinthedepth",
+      "imageThumb": "viewinthedepth",
+      "imageFull": "viewinthedepth",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/viewinthedepth",
+          "icon": "itch.io"
+        }
+      ]
     }
   ],
   "language": {

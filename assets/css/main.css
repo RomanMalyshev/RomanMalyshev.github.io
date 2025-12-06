@@ -274,8 +274,8 @@ body {
     }
     
     .sidebar .hero-section {
-        padding-top: 12;
-        margin-top: 12;
+        padding-top: 0px;
+        margin-top: 4px;
         margin-bottom: var(--spacing-2xl);
     }
     
@@ -375,8 +375,8 @@ section {
 
 /* Hero Section */
 .hero-section {
-    padding-top: var(--spacing-lg);
-    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-2xl);
+    margin-top: var(--spacing-lg);
 }
 
 .hero-card {
@@ -559,7 +559,7 @@ section {
 
 .project-image {
     width: 100%;
-    height: 320px;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     cursor: pointer;
     position: relative;
@@ -740,6 +740,135 @@ section {
 
 .project-link-icon i {
     font-size: var(--font-size-base);
+}
+
+/* Jams Section */
+.jams-section {
+    padding-top: var(--spacing-lg);
+}
+
+.jams-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+}
+
+.jam-card {
+    background-color: var(--bg-card);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg), 0 0 0 2px var(--accent-tertiary);
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.jam-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl), 0 0 0 2px var(--accent-tertiary);
+}
+
+.jam-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border-bottom: none;
+    transition: transform 0.3s ease;
+}
+
+.jam-card:hover .jam-image {
+    transform: scale(1.02);
+}
+
+.jam-content {
+    padding: var(--spacing-xl);
+}
+
+.jam-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xs);
+    flex-wrap: wrap;
+}
+
+.jam-title {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.jam-genre {
+    font-size: var(--font-size-sm);
+    color: var(--text-tertiary);
+    font-weight: var(--font-weight-regular);
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.jam-event {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    color: var(--accent-tertiary);
+    margin-bottom: var(--spacing-md);
+}
+
+.jam-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.jam-description {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+    opacity: 0.9;
+}
+
+.jam-contribution {
+    margin-bottom: var(--spacing-lg);
+}
+
+.jam-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: none;
+    justify-content: flex-end;
+}
+
+/* Jams Section Responsive - Single Column on Small Screens */
+@media (max-width: 1023px) {
+    .jams-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .jam-content {
+        padding: var(--spacing-lg);
+    }
+    
+    .jam-title {
+        font-size: var(--font-size-lg);
+    }
+    
+    .jam-description {
+        font-size: var(--font-size-xs);
+    }
+    
+    .jam-links {
+        justify-content: flex-start;
+    }
 }
 
 /* Experience Section */
@@ -1296,7 +1425,7 @@ section {
     }
     
     .project-image {
-        height: 200px;
+        /* aspect-ratio: 16/9 inherited from base */
     }
     
     .project-header {
@@ -1391,7 +1520,7 @@ section {
     }
     
     .project-image {
-        height: 350px;
+        /* aspect-ratio: 16/9 inherited from base */
     }
     
     .project-title {
@@ -1421,7 +1550,7 @@ section {
     }
     
     .project-image {
-        height: 280px;
+        /* aspect-ratio: 16/9 inherited from base */
     }
     
     .project-title {
