@@ -12,7 +12,6 @@ class ModernPortfolioManager {
         this.supportedLanguages = ['en', 'ru'];
         this.projectImages = [];
         this.currentImageIndex = 0;
-        this.currentTheme = 'dark'; // Default to dark mode
         this.scrollPosition = 0; // Store scroll position when modal opens
         
         console.log('🚀 Initializing Modern Portfolio Manager...');
@@ -26,9 +25,6 @@ class ModernPortfolioManager {
         try {
             // Show loading indicator
             this.showLoading();
-            
-            // Initialize theme (before language to ensure proper styling)
-            this.initializeTheme();
             
             // Initialize language
             this.initializeLanguage();
@@ -64,69 +60,6 @@ class ModernPortfolioManager {
             // Default to English
             this.currentLanguage = 'en';
             console.log(`🌐 Using default language: ${this.currentLanguage}`);
-        }
-    }
-
-    /**
-     * Initialize theme settings
-     */
-    initializeTheme() {
-        // Check saved theme preference or default to dark
-        const savedTheme = localStorage.getItem('portfolio-theme');
-        
-        if (savedTheme && (savedTheme === 'light' || savedTheme === 'dark')) {
-            this.currentTheme = savedTheme;
-        } else {
-            this.currentTheme = 'dark'; // Default to dark mode
-        }
-        
-        // Apply the theme
-        this.applyTheme();
-        console.log(`🎨 Theme initialized: ${this.currentTheme}`);
-    }
-
-    /**
-     * Apply the current theme
-     */
-    applyTheme() {
-        if (this.currentTheme === 'light') {
-            document.documentElement.setAttribute('data-theme', 'light');
-        } else {
-            document.documentElement.removeAttribute('data-theme');
-        }
-        
-        // Update theme toggle button icon
-        this.updateThemeToggleIcon();
-    }
-
-    /**
-     * Toggle between light and dark themes
-     */
-    toggleTheme() {
-        this.currentTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
-        
-        // Save theme preference
-        localStorage.setItem('portfolio-theme', this.currentTheme);
-        
-        // Apply the new theme
-        this.applyTheme();
-        
-        console.log(`🎨 Theme switched to: ${this.currentTheme}`);
-    }
-
-    /**
-     * Update theme toggle button icon
-     */
-    updateThemeToggleIcon() {
-        const themeToggle = document.getElementById('theme-toggle');
-        if (themeToggle) {
-            const icon = themeToggle.querySelector('.icon');
-            if (icon) {
-                // Show moon icon in dark mode, sun icon in light mode
-                icon.textContent = this.currentTheme === 'dark' ? '🌙' : '☀️';
-                themeToggle.title = this.currentTheme === 'dark' ? 
-                    'Switch to light mode' : 'Switch to dark mode';
-            }
         }
     }
 
@@ -620,12 +553,6 @@ class ModernPortfolioManager {
      * Initialize event listeners
      */
     initializeEventListeners() {
-        // Theme toggle
-        const themeToggle = document.getElementById('theme-toggle');
-        if (themeToggle) {
-            themeToggle.addEventListener('click', () => this.toggleTheme());
-        }
-        
         // Language toggle
         const languageToggle = document.getElementById('language-toggle');
         if (languageToggle) {
