@@ -301,15 +301,11 @@
       "category": "gamedev"
     },
     {
+      "name": "DOTS / ECS",
+      "category": "gamedev"
+    },
+    {
       "name": "Addressables",
-      "category": "gamedev"
-    },
-    {
-      "name": "DOTS",
-      "category": "gamedev"
-    },
-    {
-      "name": "ECS (Entities)",
       "category": "gamedev"
     },
     {
@@ -325,15 +321,23 @@
       "category": "tools"
     },
     {
-      "name": "MVC/MVP/MVVM",
+      "name": "DOTween",
+      "category": "tools"
+    },
+    {
+      "name": "MVC / MVP / MVVM",
       "category": "programming"
     },
     {
-      "name": "CPU/GPU/RAM optimisation",
+      "name": "CPU/GPU/RAM Profiling",
       "category": "programming"
     },
     {
-      "name": "AI-Enhanced Workflow Cursor + MCP",
+      "name": "AI Workflow (Cursor)",
+      "category": "programming"
+    },
+    {
+      "name": "CI/CD Pipelines",
       "category": "programming"
     },
     {
@@ -349,12 +353,8 @@
       "category": "platforms"
     },
     {
-      "name": "Netcode optimisation",
+      "name": "Netcode Optimization",
       "category": "platforms"
-    },
-    {
-      "name": "CI/CD",
-      "category": "other"
     }
   ],
   "education": [
