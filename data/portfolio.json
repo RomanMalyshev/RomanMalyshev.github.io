@@ -128,7 +128,7 @@
       "image": "pocketsquad",
       "imageThumb": "pocketsquad",   
       "imageFull": "pocketsquad",
-      "imageExtension": "jpg",
+      "imageExtension": "png",
       "featured": false,
       "links": [
         {
@@ -253,6 +253,17 @@
       ]
     },
     {
+      "company": "Ridvan Studio",
+      "url": "",
+      "title": "Unity Developer",
+      "period": "September 2020 - September 2021",
+      "location": "Moscow, Russia",
+      "description": "Developing hypercasual game prototypes.",
+      "achievements": [
+        "Developing hypercasual game prototypes"
+      ]
+    },
+    {
       "company": "ARK LLC",
       "url": "",
       "title": "Unity/C++ Developer",
@@ -357,133 +368,23 @@
   ],
   "jams": [
     {
-      "title": "Unsmith",
-      "genre": "RPG",
-      "description": "Unstable blacksmith sells you magic items so you can be powerful. More powerful! MORE POWERFUL!! THE MOST POWERFUL!!!",
+      "title": "View in the Depth",
+      "genre": "Simulation",
+      "description": "A meditative journey into the unknown where you take on the role of an optical telescope operator, gazing deep into the cosmos. Control your telescope to find new objects by tracking signal strength, then lock onto targets and collect data by adjusting zoom and focus.",
       "techTags": ["Unity", "C#"],
-      "event": "Ludum Dare 49",
+      "event": "Ludum Dare 57",
       "contribution": [
-        "Developed item generation and magic equipment system",
-        "Implemented power scaling mechanics"
+        "Developed core gameplay mechanics including telescope control and signal tracking system",
+        "Implemented zoom and focus mechanics for data collection"
       ],
-      "image": "unsmith",
-      "imageThumb": "unsmith",
-      "imageFull": "unsmith",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "Ludum Dare",
-          "url": "https://ldjam.com/events/ludum-dare/49/unsmith",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "title": "Nuclear Shuttle",
-      "genre": "Survival",
-      "description": "A survival game set during a nuclear apocalypse. Manage resources and make tough decisions to stay alive in a devastated world.",
-      "techTags": ["Unity", "C#"],
-      "event": "Ludum Dare 50",
-      "contribution": [
-        "Developed survival mechanics and resource management system",
-        "Implemented game progression and decision-making systems"
-      ],
-      "image": "nuclearshuttle",
-      "imageThumb": "nuclearshuttle",
-      "imageFull": "nuclearshuttle",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "Ludum Dare",
-          "url": "https://ldjam.com/events/ludum-dare/50/nuclear-shuttle",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "title": "Neon Barrier",
-      "genre": "Tower Defense / Puzzle",
-      "description": "Build walls to defend your base and guide enemies into tower range. Towers help destroy enemies but you can't build them — strategic wall placement is key to victory!",
-      "techTags": ["Unity", "C#"],
-      "event": "Game Jam",
-      "contribution": [
-        "Developed wall building mechanics and enemy pathfinding",
-        "Implemented tower targeting and combat system"
-      ],
-      "image": "neonbarrier",
-      "imageThumb": "neonbarrier",
-      "imageFull": "neonbarrier",
+      "image": "viewinthedepth",
+      "imageThumb": "viewinthedepth",
+      "imageFull": "viewinthedepth",
       "imageExtension": "png",
       "links": [
         {
           "text": "itch.io",
-          "url": "https://noagard.itch.io/neon-barrier",
-          "icon": "itch.io"
-        }
-      ]
-    },
-    {
-      "title": "Kaboom-Aconda",
-      "genre": "Action",
-      "description": "Eat to grow your snake! What happens when you eat a radioactive spider with a gun?",
-      "techTags": ["Unity", "C#"],
-      "event": "GMTK Game Jam 2024",
-      "contribution": [
-        "Developed snake movement and growth mechanics",
-        "Implemented weapon systems and power-up effects"
-      ],
-      "image": "kaboomaconda",
-      "imageThumb": "kaboomaconda",
-      "imageFull": "kaboomaconda",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "itch.io",
-          "url": "https://pulni.itch.io/kaboom-aconda",
-          "icon": "itch.io"
-        }
-      ]
-    },
-    {
-      "title": "Chaotic Chess",
-      "genre": "Puzzle / Simulation",
-      "description": "Imagine playing a chess game where a new rule gets added every few turns. It could be surprising and unexpected at first, but as the game goes on, it becomes a little more... chaotic!",
-      "techTags": ["Unity", "C#"],
-      "event": "Brackeys Game Jam 2024.2",
-      "contribution": [
-        "Developed core chess mechanics and game logic",
-        "Implemented dynamic rule system for chaotic gameplay"
-      ],
-      "image": "chaoticchess",
-      "imageThumb": "chaoticchess",
-      "imageFull": "chaoticchess",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "itch.io",
-          "url": "https://ramixang.itch.io/chaotic-chess",
-          "icon": "itch.io"
-        }
-      ]
-    },
-    {
-      "title": "Steam Forge",
-      "genre": "Turn-based RPG",
-      "description": "Turn-based RPG where you have to choose which side you are on — the side of people or machines in the world of steampunk!",
-      "techTags": ["Unity", "C#"],
-      "event": "RPG Mania V",
-      "contribution": [
-        "Developed turn-based combat system and character mechanics",
-        "Implemented faction choice system affecting gameplay"
-      ],
-      "image": "steamforge",
-      "imageThumb": "steamforge",
-      "imageFull": "steamforge",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "itch.io",
-          "url": "https://noagard.itch.io/steam-forge",
+          "url": "https://noagard.itch.io/viewinthedepth",
           "icon": "itch.io"
         }
       ]
@@ -511,26 +412,216 @@
       ]
     },
     {
-      "title": "View in the Depth",
-      "genre": "Simulation",
-      "description": "A meditative journey into the unknown where you take on the role of an optical telescope operator, gazing deep into the cosmos. Control your telescope to find new objects by tracking signal strength, then lock onto targets and collect data by adjusting zoom and focus.",
+      "title": "Steam Forge",
+      "genre": "Turn-based RPG",
+      "description": "Turn-based RPG where you have to choose which side you are on — the side of people or machines in the world of steampunk!",
       "techTags": ["Unity", "C#"],
-      "event": "Ludum Dare 57",
+      "event": "RPG Mania V",
       "contribution": [
-        "Developed core gameplay mechanics including telescope control and signal tracking system",
-        "Implemented zoom and focus mechanics for data collection"
+        "Developed turn-based combat system and character mechanics",
+        "Implemented faction choice system affecting gameplay"
       ],
-      "image": "viewinthedepth",
-      "imageThumb": "viewinthedepth",
-      "imageFull": "viewinthedepth",
+      "image": "steamforge",
+      "imageThumb": "steamforge",
+      "imageFull": "steamforge",
       "imageExtension": "png",
       "links": [
         {
           "text": "itch.io",
-          "url": "https://noagard.itch.io/viewinthedepth",
+          "url": "https://noagard.itch.io/steam-forge",
           "icon": "itch.io"
         }
       ]
+    },
+    {
+      "title": "Chaotic Chess",
+      "genre": "Puzzle / Simulation",
+      "description": "Imagine playing a chess game where a new rule gets added every few turns. It could be surprising and unexpected at first, but as the game goes on, it becomes a little more... chaotic!",
+      "techTags": ["Unity", "C#"],
+      "event": "Brackeys Game Jam 2024.2",
+      "contribution": [
+        "Developed core chess mechanics and game logic",
+        "Implemented dynamic rule system for chaotic gameplay"
+      ],
+      "image": "chaoticchess",
+      "imageThumb": "chaoticchess",
+      "imageFull": "chaoticchess",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://ramixang.itch.io/chaotic-chess",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Kaboom-Aconda",
+      "genre": "Action",
+      "description": "Eat to grow your snake! What happens when you eat a radioactive spider with a gun?",
+      "techTags": ["Unity", "C#"],
+      "event": "GMTK Game Jam 2024",
+      "contribution": [
+        "Developed snake movement and growth mechanics",
+        "Implemented weapon systems and power-up effects"
+      ],
+      "image": "kaboomaconda",
+      "imageThumb": "kaboomaconda",
+      "imageFull": "kaboomaconda",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://pulni.itch.io/kaboom-aconda",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Neon Barrier",
+      "genre": "Tower Defense / Puzzle",
+      "description": "Build walls to defend your base and guide enemies into tower range. Towers help destroy enemies but you can't build them — strategic wall placement is key to victory!",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 54",
+      "contribution": [
+        "Developed wall building mechanics and enemy pathfinding",
+        "Implemented tower targeting and combat system"
+      ],
+      "image": "neonbarrier",
+      "imageThumb": "neonbarrier",
+      "imageFull": "neonbarrier",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/neon-barrier",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Nuclear Shuttle",
+      "genre": "Survival",
+      "description": "A survival game set during a nuclear apocalypse. Manage resources and make tough decisions to stay alive in a devastated world.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 50",
+      "contribution": [
+        "Developed survival mechanics and resource management system",
+        "Implemented game progression and decision-making systems"
+      ],
+      "image": "nuclearshuttle",
+      "imageThumb": "nuclearshuttle",
+      "imageFull": "nuclearshuttle",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/50/nuclear-shuttle",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "Unsmith",
+      "genre": "RPG",
+      "description": "Unstable blacksmith sells you magic items so you can be powerful. More powerful! MORE POWERFUL!! THE MOST POWERFUL!!!",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 49",
+      "contribution": [
+        "Developed item generation and magic equipment system",
+        "Implemented power scaling mechanics"
+      ],
+      "image": "unsmith",
+      "imageThumb": "unsmith",
+      "imageFull": "unsmith",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/49/unsmith",
+          "icon": "globe"
+        }
+      ]
+    }
+  ],
+  "prototypes": [
+    {
+      "title": "Samurai Slash",
+      "genre": "Action / Hyper-Casual",
+      "description": "Fast-paced slashing action game where you play as a samurai cutting through waves of enemies with precise blade strikes.",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "status": "Prototype",
+      "image": "samuraislash",
+      "imageThumb": "samuraislash",
+      "imageFull": "samuraislash",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://steprimo.com/android/en/gplay/Y29tLkxhelJlZEdhbWUuU2FtdXJhaVNsYXNo/",
+          "icon": "google-play"
+        }
+      ]
+    },
+    {
+      "title": "Tower Raft IO",
+      "genre": "IO / Strategy",
+      "description": "Fight tons of opponents and build up your combat power in this multiplayer IO game.",
+      "techTags": ["Unity", "C#", "Multiplayer"],
+      "status": "Prototype",
+      "image": "towerraftio",
+      "imageThumb": "towerraftio",
+      "imageFull": "towerraftio",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://steprimo.com/android/en/app/com.lazredgame.Tower.IO/",
+          "icon": "google-play"
+        }
+      ]
+    },
+    {
+      "title": "UFO Diggers: Idle Museum",
+      "genre": "Idle / Adventure",
+      "description": "Launch expedition to Antarctica, unearth alien fossils, and create your own museum in the heart of the city. Casual puzzle-style gameplay with one-touch excavation.",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "status": "Prototype",
+      "image": "ufodiggers",
+      "imageThumb": "ufodiggers",
+      "imageFull": "ufodiggers",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://www.ldplayer.net/games/ufo-diggers-idle-museum-on-pc.html",
+          "icon": "google-play"
+        }
+      ]
+    },
+    {
+      "title": "Throw Royale IO",
+      "genre": "IO / Battle Royale",
+      "description": "Competitive multiplayer game where players throw objects at each other in a shrinking arena. Last thrower standing wins!",
+      "techTags": ["Unity", "C#", "Multiplayer"],
+      "status": "Prototype",
+      "image": "throwroyaleio",
+      "imageThumb": "throwroyaleio",
+      "imageFull": "throwroyaleio",
+      "imageExtension": "png",
+      "links": []
+    },
+    {
+      "title": "Titan Wall",
+      "genre": "Tower Defense / Strategy",
+      "description": "Strategic defense game where you build and upgrade massive walls to protect your civilization from giant titan attacks.",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "status": "Prototype",
+      "image": "titanwall",
+      "imageThumb": "titanwall",
+      "imageFull": "titanwall",
+      "imageExtension": "png",
+      "links": []
     }
   ],
   "language": {

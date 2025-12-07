@@ -40,24 +40,25 @@
                 <button class="mobile-nav-close" id="mobile-nav-close">&times;</button>
             </div>
             <ul class="mobile-nav-links">
-                <li><a href="#about" class="mobile-nav-link" data-section="about"><span class="nav-icon">👤</span><span id="nav-about">About</span></a></li>
-                <li><a href="#contact" class="mobile-nav-link" data-section="contact"><span class="nav-icon">✉️</span><span id="nav-contact">Contact</span></a></li>
-                <li><a href="#projects" class="mobile-nav-link" data-section="projects"><span class="nav-icon">🎮</span><span id="nav-projects">Projects</span></a></li>
-                <li><a href="#jams" class="mobile-nav-link" data-section="jams"><span class="nav-icon">🏆</span><span id="nav-jams">Jams</span></a></li>
-                <li><a href="#experience" class="mobile-nav-link" data-section="experience"><span class="nav-icon">💼</span><span id="nav-experience">Experience</span></a></li>
-                <li><a href="#skills" class="mobile-nav-link" data-section="skills"><span class="nav-icon">⚡</span><span id="nav-skills">Skills</span></a></li>
-                <li><a href="#education" class="mobile-nav-link" data-section="education"><span class="nav-icon">🎓</span><span id="nav-education">Education</span></a></li>
+                <li><a href="#about" class="mobile-nav-link" data-section="about"><span class="nav-icon"><i class="fas fa-user"></i></span><span id="nav-about">About</span></a></li>
+                <li><a href="#contact" class="mobile-nav-link" data-section="contact"><span class="nav-icon"><i class="fas fa-envelope"></i></span><span id="nav-contact">Contact</span></a></li>
+                <li><a href="#skills" class="mobile-nav-link" data-section="skills"><span class="nav-icon"><i class="fas fa-code"></i></span><span id="nav-skills">Skills</span></a></li>
+                <li><a href="#projects" class="mobile-nav-link" data-section="projects"><span class="nav-icon"><i class="fas fa-gamepad"></i></span><span id="nav-projects">Projects</span></a></li>
+                <li><a href="#jams" class="mobile-nav-link" data-section="jams"><span class="nav-icon"><i class="fas fa-trophy"></i></span><span id="nav-jams">Jams</span></a></li>
+                <li><a href="#prototypes" class="mobile-nav-link" data-section="prototypes"><span class="nav-icon"><i class="fas fa-flask"></i></span><span id="nav-prototypes">Prototypes</span></a></li>
+                <li><a href="#experience" class="mobile-nav-link" data-section="experience"><span class="nav-icon"><i class="fas fa-briefcase"></i></span><span id="nav-experience">Experience</span></a></li>
+                <li><a href="#education" class="mobile-nav-link" data-section="education"><span class="nav-icon"><i class="fas fa-graduation-cap"></i></span><span id="nav-education">Education</span></a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Main Container -->
     <main class="container">
-        <!-- Sidebar (Desktop) -->
-        <aside class="sidebar">
-            <!-- Hero Section -->
-            <section class="hero-section">
-                <div class="hero-card">
+        <!-- Hero + About Combined Section -->
+        <section class="hero-about-section" id="about">
+            <div class="hero-about-card">
+                <!-- Left: Profile Info -->
+                <div class="hero-profile">
                     <div class="avatar-container">
                         <img src="images/avatar.jpg" alt="Roman Malyshev" class="avatar-large">
                     </div>
@@ -65,86 +66,85 @@
                         <h1 class="hero-name" id="hero-name">Roman Malyshev</h1>
                         <p class="hero-title" id="hero-title">Senior Game Engineer | Unity & Unreal</p>
                         <p class="hero-location" id="hero-location">Tbilisi - Georgia</p>
-                        <div class="hero-tags">
-                            <span class="tag">Unity</span>
-                            <span class="tag">C#</span>
-                            <span class="tag">DOTS</span>
-                        </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- About Section -->
-            <section class="about-section" id="about">
-                <div class="card">
+                <!-- Right: About Me -->
+                <div class="hero-about">
                     <h2 class="section-title" id="about-title">About Me</h2>
                     <p class="about-content" id="about-content">
                         <!-- About content will be populated by JavaScript -->
                     </p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Contact Section (Social Links) -->
-            <section class="social-section" id="contact">
-                <h2 class="section-title" id="contact-title">Contact</h2>
-                <div class="social-grid" id="social-links">
-                    <!-- Social links will be populated by JavaScript -->
-                </div>
-            </section>
-        </aside>
+        <!-- Contact Section (Social Links) -->
+        <section class="social-section" id="contact">
+            <h2 class="section-title" id="contact-title">Contact</h2>
+            <div class="social-grid" id="social-links">
+                <!-- Social links will be populated by JavaScript -->
+            </div>
+        </section>
 
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Projects Section -->
-            <section class="projects-section" id="projects">
-                <div class="section-header">
-                    <h2 class="section-title" id="projects-title">Games Portfolio</h2>
-                </div>
-                <div class="projects-grid" id="projects-grid">
-                    <!-- Projects will be populated by JavaScript -->
-                </div>
-            </section>
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="section-header">
+                <h2 class="section-title" id="skills-title">Skills</h2>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+        </section>
 
-            <!-- Jams Section -->
-            <section class="jams-section" id="jams">
-                <div class="section-header">
-                    <h2 class="section-title" id="jams-title">Jams</h2>
-                </div>
-                <div class="jams-grid" id="jams-grid">
-                    <!-- Jam projects will be populated by JavaScript -->
-                </div>
-            </section>
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="section-header">
+                <h2 class="section-title" id="projects-title">Games Portfolio</h2>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </section>
 
-            <!-- Experience Section -->
-            <section class="experience-section" id="experience">
-                <div class="section-header">
-                    <h2 class="section-title" id="experience-title">Experience</h2>
-                </div>
-                <div class="experience-list" id="experience-list">
-                    <!-- Experience items will be populated by JavaScript -->
-                </div>
-            </section>
+        <!-- Jams Section -->
+        <section class="jams-section" id="jams">
+            <div class="section-header">
+                <h2 class="section-title" id="jams-title">Jams</h2>
+            </div>
+            <div class="jams-grid" id="jams-grid">
+                <!-- Jam projects will be populated by JavaScript -->
+            </div>
+        </section>
 
-            <!-- Skills Section -->
-            <section class="skills-section" id="skills">
-                <div class="section-header">
-                    <h2 class="section-title" id="skills-title">Skills</h2>
-                </div>
-                <div class="skills-grid" id="skills-grid">
-                    <!-- Skills will be populated by JavaScript -->
-                </div>
-            </section>
+        <!-- Prototypes Section -->
+        <section class="prototypes-section" id="prototypes">
+            <div class="section-header">
+                <h2 class="section-title" id="prototypes-title">Prototypes</h2>
+            </div>
+            <div class="prototypes-grid" id="prototypes-grid">
+                <!-- Prototype projects will be populated by JavaScript -->
+            </div>
+        </section>
 
-            <!-- Education Section -->
-            <section class="education-section" id="education">
-                <div class="section-header">
-                    <h2 class="section-title" id="education-title">Education</h2>
-                </div>
-                <div class="education-list" id="education-list">
-                    <!-- Education items will be populated by JavaScript -->
-                </div>
-            </section>
-        </div>
+        <!-- Experience Section -->
+        <section class="experience-section" id="experience">
+            <div class="section-header">
+                <h2 class="section-title" id="experience-title">Experience</h2>
+            </div>
+            <div class="experience-list" id="experience-list">
+                <!-- Experience items will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section" id="education">
+            <div class="section-header">
+                <h2 class="section-title" id="education-title">Education</h2>
+            </div>
+            <div class="education-list" id="education-list">
+                <!-- Education items will be populated by JavaScript -->
+            </div>
+        </section>
     </main>
 
     <!-- Image Modal -->

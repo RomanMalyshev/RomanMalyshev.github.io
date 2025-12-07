@@ -128,7 +128,7 @@
       "image": "pocketsquad",
       "imageThumb": "pocketsquad",   
       "imageFull": "pocketsquad",
-      "imageExtension": "jpg",
+      "imageExtension": "png",
       "featured": false,
       "links": [
         {
@@ -253,6 +253,17 @@
       ]
     },
     {
+      "company": "Ridvan Studio",
+      "url": "",
+      "title": "Unity Developer",
+      "period": "Сентябрь 2020 - Сентябрь 2021",
+      "location": "Москва, Россия",
+      "description": "Разработка прототипов гиперказуальных игр.",
+      "achievements": [
+        "Разработка прототипов гиперказуальных игр"
+      ]
+    },
+    {
       "company": "ARK LLC",
       "url": "",
       "title": "Unity/C++ Developer",
@@ -357,133 +368,23 @@
   ],
   "jams": [
     {
-      "title": "Unsmith",
-      "genre": "RPG",
-      "description": "Нестабильный кузнец продаёт вам магические предметы, чтобы вы стали могущественнее. Ещё могущественнее! ЕЩЁ МОГУЩЕСТВЕННЕЕ!! САМЫМ МОГУЩЕСТВЕННЫМ!!!",
+      "title": "View in the Depth",
+      "genre": "Симулятор",
+      "description": "Медитативное путешествие в неизведанное, где вы берёте на себя роль оператора оптического телескопа, вглядывающегося в глубины космоса. Управляйте телескопом, находите новые объекты по силе сигнала, фиксируйте цели и собирайте данные, настраивая зум и фокус.",
       "techTags": ["Unity", "C#"],
-      "event": "Ludum Dare 49",
+      "event": "Ludum Dare 57",
       "contribution": [
-        "Разработал систему генерации предметов и магического снаряжения",
-        "Реализовал механики масштабирования силы"
+        "Разработал основные игровые механики, включая управление телескопом и систему отслеживания сигнала",
+        "Реализовал механики зума и фокусировки для сбора данных"
       ],
-      "image": "unsmith",
-      "imageThumb": "unsmith",
-      "imageFull": "unsmith",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "Ludum Dare",
-          "url": "https://ldjam.com/events/ludum-dare/49/unsmith",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "title": "Nuclear Shuttle",
-      "genre": "Выживание",
-      "description": "Игра на выживание во время ядерного апокалипсиса. Управляйте ресурсами и принимайте сложные решения, чтобы выжить в разрушенном мире.",
-      "techTags": ["Unity", "C#"],
-      "event": "Ludum Dare 50",
-      "contribution": [
-        "Разработал механики выживания и систему управления ресурсами",
-        "Реализовал прогрессию игры и системы принятия решений"
-      ],
-      "image": "nuclearshuttle",
-      "imageThumb": "nuclearshuttle",
-      "imageFull": "nuclearshuttle",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "Ludum Dare",
-          "url": "https://ldjam.com/events/ludum-dare/50/nuclear-shuttle",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "title": "Neon Barrier",
-      "genre": "Tower Defense / Головоломка",
-      "description": "Стройте стены, чтобы защитить базу и направить врагов под огонь башен. Башни уничтожают врагов, но строить их нельзя — стратегическое размещение стен — ключ к победе!",
-      "techTags": ["Unity", "C#"],
-      "event": "Game Jam",
-      "contribution": [
-        "Разработал механики строительства стен и поиск пути врагов",
-        "Реализовал систему прицеливания башен и боевую систему"
-      ],
-      "image": "neonbarrier",
-      "imageThumb": "neonbarrier",
-      "imageFull": "neonbarrier",
+      "image": "viewinthedepth",
+      "imageThumb": "viewinthedepth",
+      "imageFull": "viewinthedepth",
       "imageExtension": "png",
       "links": [
         {
           "text": "itch.io",
-          "url": "https://noagard.itch.io/neon-barrier",
-          "icon": "itch.io"
-        }
-      ]
-    },
-    {
-      "title": "Kaboom-Aconda",
-      "genre": "Экшен",
-      "description": "Ешь, чтобы расти! Что будет, если змея съест радиоактивного паука с пушкой?",
-      "techTags": ["Unity", "C#"],
-      "event": "GMTK Game Jam 2024",
-      "contribution": [
-        "Разработал механики движения и роста змеи",
-        "Реализовал систему оружия и эффекты усилений"
-      ],
-      "image": "kaboomaconda",
-      "imageThumb": "kaboomaconda",
-      "imageFull": "kaboomaconda",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "itch.io",
-          "url": "https://pulni.itch.io/kaboom-aconda",
-          "icon": "itch.io"
-        }
-      ]
-    },
-    {
-      "title": "Chaotic Chess",
-      "genre": "Головоломка / Симулятор",
-      "description": "Представьте шахматную партию, где каждые несколько ходов добавляется новое правило. Сначала это удивляет и сбивает с толку, но чем дальше идёт игра, тем больше... хаоса!",
-      "techTags": ["Unity", "C#"],
-      "event": "Brackeys Game Jam 2024.2",
-      "contribution": [
-        "Разработал основные шахматные механики и игровую логику",
-        "Реализовал динамическую систему правил для хаотичного геймплея"
-      ],
-      "image": "chaoticchess",
-      "imageThumb": "chaoticchess",
-      "imageFull": "chaoticchess",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "itch.io",
-          "url": "https://ramixang.itch.io/chaotic-chess",
-          "icon": "itch.io"
-        }
-      ]
-    },
-    {
-      "title": "Steam Forge",
-      "genre": "Пошаговая RPG",
-      "description": "Пошаговая RPG, в которой вам предстоит выбрать сторону — людей или машин в мире стимпанка!",
-      "techTags": ["Unity", "C#"],
-      "event": "RPG Mania V",
-      "contribution": [
-        "Разработал пошаговую боевую систему и механики персонажей",
-        "Реализовал систему выбора фракции, влияющую на геймплей"
-      ],
-      "image": "steamforge",
-      "imageThumb": "steamforge",
-      "imageFull": "steamforge",
-      "imageExtension": "png",
-      "links": [
-        {
-          "text": "itch.io",
-          "url": "https://noagard.itch.io/steam-forge",
+          "url": "https://noagard.itch.io/viewinthedepth",
           "icon": "itch.io"
         }
       ]
@@ -511,26 +412,216 @@
       ]
     },
     {
-      "title": "View in the Depth",
-      "genre": "Симулятор",
-      "description": "Медитативное путешествие в неизведанное, где вы берёте на себя роль оператора оптического телескопа, вглядывающегося в глубины космоса. Управляйте телескопом, находите новые объекты по силе сигнала, фиксируйте цели и собирайте данные, настраивая зум и фокус.",
+      "title": "Steam Forge",
+      "genre": "Пошаговая RPG",
+      "description": "Пошаговая RPG, в которой вам предстоит выбрать сторону — людей или машин в мире стимпанка!",
       "techTags": ["Unity", "C#"],
-      "event": "Ludum Dare 57",
+      "event": "RPG Mania V",
       "contribution": [
-        "Разработал основные игровые механики, включая управление телескопом и систему отслеживания сигнала",
-        "Реализовал механики зума и фокусировки для сбора данных"
+        "Разработал пошаговую боевую систему и механики персонажей",
+        "Реализовал систему выбора фракции, влияющую на геймплей"
       ],
-      "image": "viewinthedepth",
-      "imageThumb": "viewinthedepth",
-      "imageFull": "viewinthedepth",
+      "image": "steamforge",
+      "imageThumb": "steamforge",
+      "imageFull": "steamforge",
       "imageExtension": "png",
       "links": [
         {
           "text": "itch.io",
-          "url": "https://noagard.itch.io/viewinthedepth",
+          "url": "https://noagard.itch.io/steam-forge",
           "icon": "itch.io"
         }
       ]
+    },
+    {
+      "title": "Chaotic Chess",
+      "genre": "Головоломка / Симулятор",
+      "description": "Представьте шахматную партию, где каждые несколько ходов добавляется новое правило. Сначала это удивляет и сбивает с толку, но чем дальше идёт игра, тем больше... хаоса!",
+      "techTags": ["Unity", "C#"],
+      "event": "Brackeys Game Jam 2024.2",
+      "contribution": [
+        "Разработал основные шахматные механики и игровую логику",
+        "Реализовал динамическую систему правил для хаотичного геймплея"
+      ],
+      "image": "chaoticchess",
+      "imageThumb": "chaoticchess",
+      "imageFull": "chaoticchess",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://ramixang.itch.io/chaotic-chess",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Kaboom-Aconda",
+      "genre": "Экшен",
+      "description": "Ешь, чтобы расти! Что будет, если змея съест радиоактивного паука с пушкой?",
+      "techTags": ["Unity", "C#"],
+      "event": "GMTK Game Jam 2024",
+      "contribution": [
+        "Разработал механики движения и роста змеи",
+        "Реализовал систему оружия и эффекты усилений"
+      ],
+      "image": "kaboomaconda",
+      "imageThumb": "kaboomaconda",
+      "imageFull": "kaboomaconda",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://pulni.itch.io/kaboom-aconda",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Neon Barrier",
+      "genre": "Tower Defense / Головоломка",
+      "description": "Стройте стены, чтобы защитить базу и направить врагов под огонь башен. Башни уничтожают врагов, но строить их нельзя — стратегическое размещение стен — ключ к победе!",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 54",
+      "contribution": [
+        "Разработал механики строительства стен и поиск пути врагов",
+        "Реализовал систему прицеливания башен и боевую систему"
+      ],
+      "image": "neonbarrier",
+      "imageThumb": "neonbarrier",
+      "imageFull": "neonbarrier",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "itch.io",
+          "url": "https://noagard.itch.io/neon-barrier",
+          "icon": "itch.io"
+        }
+      ]
+    },
+    {
+      "title": "Nuclear Shuttle",
+      "genre": "Выживание",
+      "description": "Игра на выживание во время ядерного апокалипсиса. Управляйте ресурсами и принимайте сложные решения, чтобы выжить в разрушенном мире.",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 50",
+      "contribution": [
+        "Разработал механики выживания и систему управления ресурсами",
+        "Реализовал прогрессию игры и системы принятия решений"
+      ],
+      "image": "nuclearshuttle",
+      "imageThumb": "nuclearshuttle",
+      "imageFull": "nuclearshuttle",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/50/nuclear-shuttle",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "title": "Unsmith",
+      "genre": "RPG",
+      "description": "Нестабильный кузнец продаёт вам магические предметы, чтобы вы стали могущественнее. Ещё могущественнее! ЕЩЁ МОГУЩЕСТВЕННЕЕ!! САМЫМ МОГУЩЕСТВЕННЫМ!!!",
+      "techTags": ["Unity", "C#"],
+      "event": "Ludum Dare 49",
+      "contribution": [
+        "Разработал систему генерации предметов и магического снаряжения",
+        "Реализовал механики масштабирования силы"
+      ],
+      "image": "unsmith",
+      "imageThumb": "unsmith",
+      "imageFull": "unsmith",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Ludum Dare",
+          "url": "https://ldjam.com/events/ludum-dare/49/unsmith",
+          "icon": "globe"
+        }
+      ]
+    }
+  ],
+  "prototypes": [
+    {
+      "title": "Samurai Slash",
+      "genre": "Экшен / Гипер-казуал",
+      "description": "Динамичная экшен-игра, где вы играете за самурая, рубящего волны врагов точными ударами клинка.",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "status": "Прототип",
+      "image": "samuraislash",
+      "imageThumb": "samuraislash",
+      "imageFull": "samuraislash",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://steprimo.com/android/en/gplay/Y29tLkxhelJlZEdhbWUuU2FtdXJhaVNsYXNo/",
+          "icon": "google-play"
+        }
+      ]
+    },
+    {
+      "title": "Tower Raft IO",
+      "genre": "IO / Стратегия",
+      "description": "Сражайтесь с множеством противников и наращивайте свою боевую мощь в этой мультиплеерной IO-игре.",
+      "techTags": ["Unity", "C#", "Multiplayer"],
+      "status": "Прототип",
+      "image": "towerraftio",
+      "imageThumb": "towerraftio",
+      "imageFull": "towerraftio",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://steprimo.com/android/en/app/com.lazredgame.Tower.IO/",
+          "icon": "google-play"
+        }
+      ]
+    },
+    {
+      "title": "UFO Diggers: Idle Museum",
+      "genre": "Idle / Приключения",
+      "description": "Отправляйтесь в экспедицию в Антарктику, откапывайте инопланетные окаменелости и создавайте собственный музей в центре города. Казуальный геймплей в стиле головоломки с раскопками в одно касание.",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "status": "Прототип",
+      "image": "ufodiggers",
+      "imageThumb": "ufodiggers",
+      "imageFull": "ufodiggers",
+      "imageExtension": "png",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://www.ldplayer.net/games/ufo-diggers-idle-museum-on-pc.html",
+          "icon": "google-play"
+        }
+      ]
+    },
+    {
+      "title": "Throw Royale IO",
+      "genre": "IO / Батл-рояль",
+      "description": "Соревновательная мультиплеерная игра, где игроки бросают предметы друг в друга на сужающейся арене. Последний выживший побеждает!",
+      "techTags": ["Unity", "C#", "Multiplayer"],
+      "status": "Прототип",
+      "image": "throwroyaleio",
+      "imageThumb": "throwroyaleio",
+      "imageFull": "throwroyaleio",
+      "imageExtension": "png",
+      "links": []
+    },
+    {
+      "title": "Titan Wall",
+      "genre": "Tower Defense / Стратегия",
+      "description": "Стратегическая игра в жанре защиты, где вы строите и улучшаете массивные стены для защиты цивилизации от атак гигантских титанов.",
+      "techTags": ["Unity", "C#", "Mobile"],
+      "status": "Прототип",
+      "image": "titanwall",
+      "imageThumb": "titanwall",
+      "imageFull": "titanwall",
+      "imageExtension": "png",
+      "links": []
     }
   ],
   "language": {

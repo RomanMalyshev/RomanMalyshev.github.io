@@ -144,6 +144,7 @@ class ModernPortfolioManager {
         this.renderAboutSection();
         this.renderProjectsSection();
         this.renderJamsSection();
+        this.renderPrototypesSection();
         this.renderExperienceSection();
         this.renderSkillsSection();
         this.renderEducationSection();
@@ -204,16 +205,17 @@ class ModernPortfolioManager {
      */
     getSocialIcon(iconName) {
         const icons = {
-            'fa-linkedin': '💼',
-            'fa-github': '🐙',
-            'fa-gamepad': '🎮',
-            'fa-app-store': '📱',
-            'fa-google-play': '🎯',
-            'fa-itch-io': '🕹️',
-            'fa-file-code': '💻',
-            'fa-envelope': '✉️'
+            'fa-linkedin': '<i class="fab fa-linkedin"></i>',
+            'fa-github': '<i class="fab fa-github"></i>',
+            'fa-gamepad': '<i class="fas fa-gamepad"></i>',
+            'fa-app-store': '<i class="fab fa-app-store"></i>',
+            'fa-google-play': '<i class="fab fa-google-play"></i>',
+            'fa-itch-io': '<i class="fab fa-itch-io"></i>',
+            'fa-file-code': '<i class="fas fa-file-code"></i>',
+            'fa-envelope': '<i class="fas fa-envelope"></i>',
+            'fa-file-pdf': '<i class="fas fa-file-alt"></i>'
         };
-        return icons[iconName] || '🔗';
+        return icons[iconName] || '<i class="fas fa-link"></i>';
     }
 
     /**
@@ -363,6 +365,84 @@ class ModernPortfolioManager {
         }).join('');
         
         jamsGrid.innerHTML = jamsHTML;
+    }
+
+    /**
+     * Render prototypes section
+     */
+    renderPrototypesSection() {
+        const prototypesTitle = document.getElementById('prototypes-title');
+        const prototypesGrid = document.getElementById('prototypes-grid');
+        
+        if (prototypesTitle) {
+            prototypesTitle.textContent = this.currentLanguage === 'ru' ? 'Прототипы' : 'Prototypes';
+        }
+        
+        if (!prototypesGrid || !this.data.prototypes) return;
+        
+        // Hide section if no prototypes
+        const prototypesSection = document.getElementById('prototypes');
+        if (this.data.prototypes.length === 0) {
+            if (prototypesSection) prototypesSection.style.display = 'none';
+            return;
+        } else {
+            if (prototypesSection) prototypesSection.style.display = '';
+        }
+        
+        const contributionLabel = this.currentLanguage === 'ru' ? 'мой вклад:' : 'my contribution:';
+        
+        const prototypesHTML = this.data.prototypes.map((prototype) => {
+            const hasImage = prototype.image || prototype.imageThumb;
+            const ext = prototype.imageExtension || 'png';
+            const thumbImage = prototype.imageThumb || prototype.image;
+            
+            return `
+                <div class="prototype-card ${hasImage ? '' : 'no-image'}">
+                    ${hasImage ? `
+                        <img 
+                            src="images/thumbs/${thumbImage}.${ext}" 
+                            alt="${prototype.title}"
+                            class="prototype-image"
+                        >
+                    ` : ''}
+                    <div class="prototype-content">
+                        <div class="prototype-header">
+                            <h3 class="prototype-title">${prototype.title}</h3>
+                            ${prototype.genre ? `<span class="prototype-genre">${prototype.genre}</span>` : ''}
+                        </div>
+                        ${prototype.status ? `<div class="prototype-status">${prototype.status}</div>` : ''}
+                        ${prototype.techTags && prototype.techTags.length > 0 ? `
+                            <div class="prototype-tech-tags">
+                                ${prototype.techTags.map(tag => `<span class="tech-tag">[${tag}]</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <p class="prototype-description">${prototype.description}</p>
+                        ${prototype.contribution && (Array.isArray(prototype.contribution) ? prototype.contribution.length > 0 : prototype.contribution) ? `
+                            <div class="prototype-contribution">
+                                <span class="contribution-label">${contributionLabel}</span>
+                                ${Array.isArray(prototype.contribution) ? `
+                                    <ul class="contribution-list">
+                                        ${prototype.contribution.map(item => `<li>${item}</li>`).join('')}
+                                    </ul>
+                                ` : `<p class="contribution-text">${prototype.contribution}</p>`}
+                            </div>
+                        ` : ''}
+                        ${prototype.links && prototype.links.length > 0 ? `
+                            <div class="prototype-links">
+                                ${prototype.links.map(link => `
+                                    <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <span class="project-link-icon">${this.getLinkIcon(link.icon || link.text)}</span>
+                                        <span>${link.text}</span>
+                                    </a>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        prototypesGrid.innerHTML = prototypesHTML;
     }
 
     /**
@@ -677,14 +757,21 @@ class ModernPortfolioManager {
         if (modal) {
             modal.classList.remove('active');
             
-            // Restore body styles and scroll position
+            // Save scroll position before removing fixed positioning
+            const scrollY = this.scrollPosition;
+            
+            // Restore body styles
             document.body.style.overflow = '';
             document.body.style.position = '';
             document.body.style.top = '';
             document.body.style.width = '';
             
-            // Restore scroll position
-            window.scrollTo(0, this.scrollPosition);
+            // Restore scroll position instantly without animation
+            window.scrollTo({
+                top: scrollY,
+                left: 0,
+                behavior: 'instant'
+            });
         }
     }
 
@@ -823,18 +910,16 @@ class ModernPortfolioManager {
                 
                 this.closeMobileNav();
                 
-                // Wait for menu to close, then scroll
+                // Wait for menu animation to complete, then scroll
+                // Using requestAnimationFrame to ensure layout is stable
                 setTimeout(() => {
-                    if (targetSection) {
-                        const navHeight = document.querySelector('.nav-header')?.offsetHeight || 56;
-                        const targetPosition = targetSection.offsetTop - navHeight - 16;
-                        
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                    }
-                }, 300);
+                    requestAnimationFrame(() => {
+                        if (targetSection) {
+                            // Use scrollIntoView which works better with CSS scroll-behavior
+                            targetSection.scrollIntoView();
+                        }
+                    });
+                }, 350);
             });
         });
         
@@ -868,6 +953,7 @@ class ModernPortfolioManager {
                 about: 'About',
                 projects: 'Projects',
                 jams: 'Jams',
+                prototypes: 'Prototypes',
                 experience: 'Experience',
                 skills: 'Skills',
                 education: 'Education',
@@ -878,6 +964,7 @@ class ModernPortfolioManager {
                 about: 'Обо мне',
                 projects: 'Проекты',
                 jams: 'Джемы',
+                prototypes: 'Прототипы',
                 experience: 'Опыт',
                 skills: 'Навыки',
                 education: 'Образование',
@@ -896,6 +983,7 @@ class ModernPortfolioManager {
         const navAbout = document.getElementById('nav-about');
         const navProjects = document.getElementById('nav-projects');
         const navJams = document.getElementById('nav-jams');
+        const navPrototypes = document.getElementById('nav-prototypes');
         const navExperience = document.getElementById('nav-experience');
         const navSkills = document.getElementById('nav-skills');
         const navEducation = document.getElementById('nav-education');
@@ -904,6 +992,7 @@ class ModernPortfolioManager {
         if (navAbout) navAbout.textContent = currentLabels.about;
         if (navProjects) navProjects.textContent = currentLabels.projects;
         if (navJams) navJams.textContent = currentLabels.jams;
+        if (navPrototypes) navPrototypes.textContent = currentLabels.prototypes;
         if (navExperience) navExperience.textContent = currentLabels.experience;
         if (navSkills) navSkills.textContent = currentLabels.skills;
         if (navEducation) navEducation.textContent = currentLabels.education;

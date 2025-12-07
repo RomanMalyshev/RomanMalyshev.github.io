@@ -16,6 +16,12 @@
       "icon": "fa-itch-io"
     },
     {
+      "name": "Ludum Dare",
+      "url": "https://ldjam.com/users/noagard/",
+      "icon": "fa-trophy",
+      "isSolid": true
+    },
+    {
       "name": "Email",
       "url": "mailto:noagard@gmail.com",
       "icon": "fa-envelope",
