@@ -921,16 +921,18 @@ section {
     justify-content: flex-end;
 }
 
-/* Jams Section Responsive - Keep 2 columns on all screens */
+/* Jams Section Responsive - 1 column on mobile */
 @media (max-width: 768px) {
     .jams-grid {
-        gap: var(--spacing-md);
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
     }
 }
 
 @media (max-width: 480px) {
     .jams-grid {
-        gap: var(--spacing-sm);
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
     
     .jam-content {
@@ -1075,16 +1077,18 @@ section {
     justify-content: flex-end;
 }
 
-/* Prototypes Section Responsive - Keep 2 columns on all screens */
+/* Prototypes Section Responsive - 1 column on mobile */
 @media (max-width: 768px) {
     .prototypes-grid {
-        gap: var(--spacing-md);
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
     }
 }
 
 @media (max-width: 480px) {
     .prototypes-grid {
-        gap: var(--spacing-sm);
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
     
     .prototype-content {
