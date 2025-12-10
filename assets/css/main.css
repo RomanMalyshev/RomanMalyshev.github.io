@@ -420,6 +420,11 @@ section {
     
     .hero-profile {
         padding: var(--spacing-xl);
+        order: 1;
+    }
+    
+    .hero-about {
+        order: 2;
     }
 }
 

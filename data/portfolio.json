@@ -15,7 +15,7 @@
   },
   "about": {
     "title": "About Me",
-    "content": "I have over 7 years of professional experience in commercial game development, specializing in gameplay programming with C# and Unity 3D. My expertise includes:\n\n• Gameplay mechanics implementation and optimization\n• Client-server architecture design and maintenance\n• UI development, including animation and user experience enhancement\n• C++ programming for performance-critical tasks\n\nI also possess additional skills in software such as Photoshop, KeyShot, and Adobe Animate, further broadening my capability in visual asset creation.\n\nThroughout my career, I've successfully contributed to 9 commercially released game projects across genres such as mid-core CCG, casual, and hyper-casual. I enjoy collaborating with fellow professionals, constantly expanding my skills, and tackling new challenges."
+    "content": "For me, game development is the perfect blend of engineering logic and creative freedom. While I have extensive experience in commercial development, I am also a passionate participant in over 10 global Game Jams, including Ludum Dare and GMTK.\n\nThis background allows me to rapidly prototype ideas, from competitive multiplayer games to complex AI for irregular chess boards. I strive to write code that is not only performant but also \"designer-friendly,\" enabling the team to iterate quickly and focus on making the game fun."
   },
   "projects": [
     {
@@ -204,90 +204,52 @@
       "company": "Lowkick Studio",
       "url": "",
       "title": "Senior Unity Developer",
-      "period": "June 2025 - September 2025",
+      "period": "Jun 2025 – Nov 2025",
       "location": "Tbilisi, Georgia",
       "description": "Working as a Senior Unity Developer on mobile game optimization and team leadership for Android platform porting.",
       "achievements": [
-        "Optimized Android performance, reducing memory usage by up to 30% and cutting loading times by 40%, ensuring smooth gameplay across mid- and low-end devices",
-        "Increased overall stability by resolving platform-specific crashes and improving compatibility, which reduced crash rate by 25% and expanded supported device coverage",
-        "Planned work and assigned tasks to a team of Unity developers while porting the Android version of our game project, ensuring all deadlines were met"
+        "Architected Android optimization pipeline using Addressables and code stripping, reducing memory footprint by 30% and load times by 40%, enabling support for low-end devices",
+        "Optimized Enemy AI performance by integrating distance-based group culling and refactoring behavior tree logic, eliminating redundant calculations and reducing CPU load by 40%",
+        "Led a team of Unity developers during the Android porting phase: managed sprint planning, code reviews, and technical oversight to ensure on-time delivery"
       ]
     },
     {
       "company": "Erz Studio",
       "url": "https://erz.online/",
       "title": "Senior Unity Developer",
-      "period": "October 2022 - June 2025",
+      "period": "Oct 2022 – May 2025",
       "location": "Tbilisi, Georgia",
       "description": "Developed and optimized open-world MMO sandbox systems using Unity, C# and TypeScript for PC and web platforms.",
       "achievements": [
-        "Developed and optimized an open-world system using C# and TypeScript, enabling seamless exploration of a vast open world without performance issues on both PC and web browsers",
-        "Designed and implemented an in-game visual scripting system in Unity and C#, allowing players to automate in-game tasks with custom macros",
-        "Enhanced server-client architecture using TypeScript and C#, improving connection stability and reducing input lag"
-      ]
-    },
-    {
-      "company": "Story Mode LLC",
-      "url": "",
-      "title": "Senior Unity Developer",
-      "period": "May 2022 - September 2022",
-      "location": "Warsaw, Poland",
-      "description": "Led Unity development team and implemented blockchain integration for MVP project.",
-      "achievements": [
-        "Designed and implemented client-server architecture with Python and C#, improving connection and blockchain operations time",
-        "Led a team of Unity developers in developing MVP project using Unity and C# to meet all deadlines",
-        "Implemented blockchain-based payment integration with MetaMask, ensuring secure transactions and enhancing payment protection"
+        "Architected a seamless chunk-based open-world streaming system leveraging Unity DOTS/ECS principles, resolving critical performance bottlenecks and maintaining steady 60 FPS on target hardware",
+        "Engineered a server-synchronized visual scripting system utilizing MVVM pattern, enabling the creation of complex automation macros that rely on server-side execution, continuing to run even when players are offline",
+        "Eliminated perceived input lag by implementing a robust client-side prediction system, effectively masking up to 200ms of network latency and ensuring instant character response"
       ]
     },
     {
       "company": "Theoretical Studio",
       "url": "",
       "title": "Middle Unity Developer",
-      "period": "August 2021 - May 2022",
+      "period": "Aug 2021 – Oct 2022",
       "location": "Moscow, Russia",
       "description": "Developed core gameplay mechanics and UI systems for Auto Battler mobile game.",
       "achievements": [
-        "Developed and optimized core gameplay mechanics for an Auto Battler, implemented algorithms for combat and interaction systems that enhanced user engagement by 10%",
-        "Created UI animations to enhance the user experience, utilizing Unity's animation tools to produce smooth transitions and interactions",
-        "Integrated analytics SDKs into the game using Unity Analytics and Google Firebase to track player behavior, increasing user retention by 15%"
+        "Implemented core gameplay mechanics for an Auto Battler, collaborating closely with Game Designers to rapidly iterate on combat logic and balance adjustments",
+        "Designed a modular UI navigation architecture covering 15+ unique screens, which reduced the implementation time for new interfaces by 30%",
+        "Created custom Editor tools for content automation, cutting characters integration time by approximately 50%"
       ]
     },
     {
-      "company": "Ridvan Studio",
+      "company": "ARK Studio",
       "url": "",
-      "title": "Unity Developer",
-      "period": "September 2020 - September 2021",
+      "title": "Junior Unity Developer",
+      "period": "Sep 2018 – Aug 2021",
       "location": "Moscow, Russia",
-      "description": "Developing hypercasual game prototypes.",
+      "description": "Developed games and tools using Unity for various game projects.",
       "achievements": [
-        "Developing hypercasual game prototypes"
-      ]
-    },
-    {
-      "company": "ARK LLC",
-      "url": "",
-      "title": "Unity/C++ Developer",
-      "period": "September 2019 - August 2021",
-      "location": "Moscow, Russia",
-      "description": "Developed simulation systems using Unity and C++ for engineering training applications.",
-      "achievements": [
-        "Developed a simulation system using Unity and C#, in order to help engineers simulate machinery during training",
-        "Developed firmware for microcontroller devices using C++ to connect the devices to the simulator, improving system responsiveness by 35%",
-        "Programmed a connection feature to connect hardware devices with a simulator application using Unity and C++ to link a simulator application and hardware devices"
-      ]
-    },
-    {
-      "company": "ARK LLC",
-      "url": "",
-      "title": "ActionScript (Flash) / C++ Developer",
-      "period": "September 2017 - August 2019",
-      "location": "Moscow, Russia",
-      "description": "Developed aircraft maintenance training simulators using ActionScript and C++ for microcontrollers.",
-      "achievements": [
-        "Developed an aircraft maintenance system simulator for training purposes",
-        "C++ programming for microcontrollers integrated with the simulation system",
-        "Adobe Animate and ActionScript 3.0 programming for interactive training applications",
-        "UI implementation and UI animations for enhanced user experience"
+        "Rapidly prototyped and successfully launched 6 games, managing the full lifecycle from Game Design documentation to release under tight deadlines",
+        "Developed custom editor tools for level designers, significantly streamlining the content creation pipeline and accelerating iteration cycles",
+        "Implemented complex physics-based mechanics and integrated analytics SDKs to support data-driven game balancing"
       ]
     }
   ],
@@ -325,11 +287,11 @@
       "category": "tools"
     },
     {
-      "name": "MVC / MVP / MVVM",
+      "name": "MVC/MVP/MVVM",
       "category": "programming"
     },
     {
-      "name": "CPU/GPU/RAM Profiling",
+      "name": "GPU/CPU/RAM Optimization",
       "category": "programming"
     },
     {
