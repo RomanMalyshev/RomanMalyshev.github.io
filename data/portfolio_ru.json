@@ -72,11 +72,6 @@
       "featured": false,
       "links": [
         {
-          "text": "Steam",
-          "url": "https://store.steampowered.com/app/2156390/WorldShards/",
-          "icon": "steam"
-        },
-        {
           "text": "Официальный сайт",
           "url": "https://www.worldshards.online/en",
           "icon": "globe"
