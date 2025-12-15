@@ -343,6 +343,11 @@
           "text": "itch.io",
           "url": "https://noagard.itch.io/viewinthedepth",
           "icon": "itch.io"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/RomanMalyshev/LD57",
+          "icon": "github"
         }
       ]
     },
