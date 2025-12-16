@@ -189,8 +189,9 @@ class ModernPortfolioManager {
         const socialHTML = this.socialData.social.map(social => {
             // Support language-specific URLs (e.g., for CV)
             const url = social.urls?.[this.currentLanguage] || social.url;
+            const hiddenClass = social.hidden ? ' is-hidden' : '';
             return `
-            <a href="${url}" target="_blank" rel="noopener noreferrer" class="social-link">
+            <a href="${url}" target="_blank" rel="noopener noreferrer" class="social-link${hiddenClass}">
                 <div class="social-icon">${this.getSocialIcon(social.icon)}</div>
                 <div class="social-name">${social.name}</div>
             </a>

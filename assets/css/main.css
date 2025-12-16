@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Utility */
+.is-hidden {
+    display: none !important;
+}
+
 /* Design System Variables */
 :root {
     /* Dark Mode Colors (Default) */
